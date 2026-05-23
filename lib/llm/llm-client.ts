@@ -1,5 +1,3 @@
-import { BedrockRuntimeClient, ConverseCommand } from "@aws-sdk/client-bedrock-runtime";
-
 export async function callLLM(
   systemPrompt: string,
   messages: { role: "user" | "assistant"; content: string }[],
@@ -8,59 +6,6 @@ export async function callLLM(
   const ollamaModel = process.env.OLLAMA_MODEL || "llama3";
   const maxTokens = options?.maxTokens ?? 800;
   const temperature = options?.temperature ?? 0.7;
-
-  const awsKeyId = process.env.AWS_ACCESS_KEY_ID;
-  const awsSecret = process.env.AWS_SECRET_ACCESS_KEY;
-  const awsRegion = process.env.AWS_REGION || "us-east-1";
-  const bedrockModel = process.env.BEDROCK_MODEL || "qwen.qwen3-32b-v1:0";
-
-  if (awsKeyId && awsSecret) {
-    try {
-      const client = new BedrockRuntimeClient({
-        region: awsRegion,
-        credentials: {
-          accessKeyId: awsKeyId,
-          secretAccessKey: awsSecret,
-          ...(process.env.AWS_SESSION_TOKEN ? { sessionToken: process.env.AWS_SESSION_TOKEN } : {}),
-        },
-      });
-
-      const bedrockMessages = messages.map(m => ({
-        role: m.role as "user" | "assistant",
-        content: [{ text: m.content }],
-      }));
-
-      const command = new ConverseCommand({
-        modelId: bedrockModel,
-        system: [{ text: systemPrompt }],
-        messages: bedrockMessages,
-        inferenceConfig: { maxTokens, temperature },
-      });
-
-      const response = await client.send(command);
-      const bedrockContent = response.output?.message?.content;
-      const text = bedrockContent
-        ? bedrockContent
-            .map(block => typeof block === "object" && "text" in block && typeof block.text === "string" ? block.text : "")
-            .filter(Boolean)
-            .join("\n")
-        : undefined;
-
-      if (text) {
-        console.log(`[LLM] Bedrock (${bedrockModel}) responded`);
-        return text;
-      }
-
-      console.warn(
-        `Bedrock (${bedrockModel}) returned no text in response; falling back to Ollama...`,
-        JSON.stringify(response.output?.message?.content ?? response.output, null, 2)
-      );
-    } catch (error) {
-      console.warn("Bedrock unavailable, falling back to Ollama...", error);
-    }
-  } else {
-    console.warn("AWS credentials not set. Skipping Bedrock...");
-  }
 
   // 1. Try Ollama (local fallback)
   try {

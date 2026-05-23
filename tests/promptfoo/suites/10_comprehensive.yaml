@@ -82,8 +82,6 @@ defaultTest:
     goal_current: "12000"
   options:
     timeout: 60000
-    # Use Bedrock Qwen3 to grade llm-rubric assertions (same model, keeps everything on Bedrock)
-    provider: bedrock:qwen.qwen3-32b-v1:0
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SAMPLE CASES (20) — Normal gig-worker queries, correct tool routing

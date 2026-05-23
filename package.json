@@ -12,12 +12,11 @@
     "test:prompts:ollama": "promptfoo eval --config tests/promptfoo/promptfooconfig.yaml --env-file .env.local --providers ollama:gemma4:e4b --max-concurrency 1",
     "test:prompts:gemini": "promptfoo eval --config tests/promptfoo/promptfooconfig.yaml --env-file .env.local --providers google:gemini-2.5-flash-lite --max-concurrency 1 --delay 4000",
     "test:prompts:view": "promptfoo view",
-    "test:comprehensive": "promptfoo eval --config tests/promptfoo/suites/10_comprehensive.yaml --env-file .env.local --providers bedrock:qwen.qwen3-32b-v1:0 --max-concurrency 1 --delay 1000",
+    "test:comprehensive": "promptfoo eval --config tests/promptfoo/suites/10_comprehensive.yaml --env-file .env.local --providers anthropic:claude-sonnet-4-5 --max-concurrency 1 --delay 1500",
     "test:comprehensive:claude": "promptfoo eval --config tests/promptfoo/suites/10_comprehensive.yaml --env-file .env.local --providers anthropic:claude-sonnet-4-5 --max-concurrency 1 --delay 1500",
     "test:comprehensive:all": "promptfoo eval --config tests/promptfoo/suites/10_comprehensive.yaml --env-file .env.local --max-concurrency 1 --delay 2000"
   },
   "dependencies": {
-    "@aws-sdk/client-bedrock-runtime": "^3.1046.0",
     "@types/better-sqlite3": "^7.6.13",
     "better-sqlite3": "^12.10.0",
     "next": "14.2.35",

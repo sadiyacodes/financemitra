@@ -83,7 +83,7 @@ graph TD
 
     subgraph AgenticBackend [Agentic Backend]
         Orch[🧠 ReAct Orchestrator]:::brain
-        LLM[🤖 Qwen - AWS Bedrock]:::brain
+        LLM[🤖 LLM Client]:::brain
         PA[🔍 Pattern Agent]:::brain
         CN[📋 Credit Narrative]:::brain
     end
