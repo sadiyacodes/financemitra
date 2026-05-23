@@ -1,0 +1,6812 @@
+[
+  {
+    "id": "txn_0001",
+    "user_id": "user_001",
+    "date": "2026-02-15",
+    "type": "income",
+    "amount": 1092,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0002",
+    "user_id": "user_001",
+    "date": "2026-02-15",
+    "type": "expense",
+    "amount": 129,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0003",
+    "user_id": "user_001",
+    "date": "2026-02-15",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0004",
+    "user_id": "user_001",
+    "date": "2026-02-16",
+    "type": "income",
+    "amount": 766,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0005",
+    "user_id": "user_001",
+    "date": "2026-02-16",
+    "type": "expense",
+    "amount": 160,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0006",
+    "user_id": "user_001",
+    "date": "2026-02-17",
+    "type": "income",
+    "amount": 649,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0007",
+    "user_id": "user_001",
+    "date": "2026-02-17",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0008",
+    "user_id": "user_001",
+    "date": "2026-02-17",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0009",
+    "user_id": "user_001",
+    "date": "2026-02-18",
+    "type": "income",
+    "amount": 725,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0010",
+    "user_id": "user_001",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 129,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0011",
+    "user_id": "user_001",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 94,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0012",
+    "user_id": "user_001",
+    "date": "2026-02-19",
+    "type": "income",
+    "amount": 732,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0013",
+    "user_id": "user_001",
+    "date": "2026-02-19",
+    "type": "expense",
+    "amount": 139,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0014",
+    "user_id": "user_001",
+    "date": "2026-02-19",
+    "type": "expense",
+    "amount": 97,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0015",
+    "user_id": "user_001",
+    "date": "2026-02-20",
+    "type": "income",
+    "amount": 635,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0016",
+    "user_id": "user_001",
+    "date": "2026-02-20",
+    "type": "expense",
+    "amount": 167,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0017",
+    "user_id": "user_001",
+    "date": "2026-02-21",
+    "type": "income",
+    "amount": 1013,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0018",
+    "user_id": "user_001",
+    "date": "2026-02-21",
+    "type": "expense",
+    "amount": 135,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0019",
+    "user_id": "user_001",
+    "date": "2026-02-22",
+    "type": "income",
+    "amount": 1012,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0020",
+    "user_id": "user_001",
+    "date": "2026-02-22",
+    "type": "expense",
+    "amount": 132,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0021",
+    "user_id": "user_001",
+    "date": "2026-02-22",
+    "type": "expense",
+    "amount": 98,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0022",
+    "user_id": "user_001",
+    "date": "2026-02-23",
+    "type": "income",
+    "amount": 742,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0023",
+    "user_id": "user_001",
+    "date": "2026-02-23",
+    "type": "expense",
+    "amount": 167,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0024",
+    "user_id": "user_001",
+    "date": "2026-02-24",
+    "type": "income",
+    "amount": 730,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0025",
+    "user_id": "user_001",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 175,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0026",
+    "user_id": "user_001",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0027",
+    "user_id": "user_001",
+    "date": "2026-02-25",
+    "type": "income",
+    "amount": 783,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0028",
+    "user_id": "user_001",
+    "date": "2026-02-25",
+    "type": "expense",
+    "amount": 158,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0029",
+    "user_id": "user_001",
+    "date": "2026-02-26",
+    "type": "income",
+    "amount": 738,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0030",
+    "user_id": "user_001",
+    "date": "2026-02-26",
+    "type": "expense",
+    "amount": 162,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0031",
+    "user_id": "user_001",
+    "date": "2026-02-26",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0032",
+    "user_id": "user_001",
+    "date": "2026-02-27",
+    "type": "income",
+    "amount": 686,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0033",
+    "user_id": "user_001",
+    "date": "2026-02-27",
+    "type": "expense",
+    "amount": 132,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0034",
+    "user_id": "user_001",
+    "date": "2026-02-27",
+    "type": "expense",
+    "amount": 81,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0035",
+    "user_id": "user_001",
+    "date": "2026-02-28",
+    "type": "income",
+    "amount": 997,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0036",
+    "user_id": "user_001",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 159,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0037",
+    "user_id": "user_001",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 88,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0224",
+    "user_id": "user_001",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 8500,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0225",
+    "user_id": "user_001",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 850,
+    "category": "utilities",
+    "description": "Mobile & Internet",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_0038",
+    "user_id": "user_001",
+    "date": "2026-03-01",
+    "type": "income",
+    "amount": 979,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0039",
+    "user_id": "user_001",
+    "date": "2026-03-01",
+    "type": "expense",
+    "amount": 141,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0040",
+    "user_id": "user_001",
+    "date": "2026-03-02",
+    "type": "income",
+    "amount": 750,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0041",
+    "user_id": "user_001",
+    "date": "2026-03-02",
+    "type": "expense",
+    "amount": 157,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0042",
+    "user_id": "user_001",
+    "date": "2026-03-02",
+    "type": "expense",
+    "amount": 96,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0043",
+    "user_id": "user_001",
+    "date": "2026-03-03",
+    "type": "income",
+    "amount": 663,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0044",
+    "user_id": "user_001",
+    "date": "2026-03-03",
+    "type": "expense",
+    "amount": 146,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0045",
+    "user_id": "user_001",
+    "date": "2026-03-04",
+    "type": "income",
+    "amount": 749,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0046",
+    "user_id": "user_001",
+    "date": "2026-03-04",
+    "type": "expense",
+    "amount": 155,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0047",
+    "user_id": "user_001",
+    "date": "2026-03-05",
+    "type": "income",
+    "amount": 785,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0048",
+    "user_id": "user_001",
+    "date": "2026-03-05",
+    "type": "expense",
+    "amount": 165,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0049",
+    "user_id": "user_001",
+    "date": "2026-03-05",
+    "type": "expense",
+    "amount": 80,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0050",
+    "user_id": "user_001",
+    "date": "2026-03-06",
+    "type": "income",
+    "amount": 690,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0051",
+    "user_id": "user_001",
+    "date": "2026-03-06",
+    "type": "expense",
+    "amount": 141,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0052",
+    "user_id": "user_001",
+    "date": "2026-03-06",
+    "type": "expense",
+    "amount": 100,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0053",
+    "user_id": "user_001",
+    "date": "2026-03-07",
+    "type": "income",
+    "amount": 1154,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0054",
+    "user_id": "user_001",
+    "date": "2026-03-07",
+    "type": "expense",
+    "amount": 143,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0055",
+    "user_id": "user_001",
+    "date": "2026-03-08",
+    "type": "income",
+    "amount": 1028,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0056",
+    "user_id": "user_001",
+    "date": "2026-03-08",
+    "type": "expense",
+    "amount": 172,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0057",
+    "user_id": "user_001",
+    "date": "2026-03-08",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0058",
+    "user_id": "user_001",
+    "date": "2026-03-09",
+    "type": "income",
+    "amount": 678,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0059",
+    "user_id": "user_001",
+    "date": "2026-03-09",
+    "type": "expense",
+    "amount": 155,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0060",
+    "user_id": "user_001",
+    "date": "2026-03-09",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0061",
+    "user_id": "user_001",
+    "date": "2026-03-10",
+    "type": "income",
+    "amount": 795,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0062",
+    "user_id": "user_001",
+    "date": "2026-03-10",
+    "type": "expense",
+    "amount": 147,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0063",
+    "user_id": "user_001",
+    "date": "2026-03-10",
+    "type": "expense",
+    "amount": 102,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0064",
+    "user_id": "user_001",
+    "date": "2026-03-11",
+    "type": "income",
+    "amount": 725,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0065",
+    "user_id": "user_001",
+    "date": "2026-03-11",
+    "type": "expense",
+    "amount": 132,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0066",
+    "user_id": "user_001",
+    "date": "2026-03-11",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0067",
+    "user_id": "user_001",
+    "date": "2026-03-12",
+    "type": "income",
+    "amount": 747,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0068",
+    "user_id": "user_001",
+    "date": "2026-03-12",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0069",
+    "user_id": "user_001",
+    "date": "2026-03-12",
+    "type": "expense",
+    "amount": 81,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0070",
+    "user_id": "user_001",
+    "date": "2026-03-13",
+    "type": "income",
+    "amount": 702,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0071",
+    "user_id": "user_001",
+    "date": "2026-03-13",
+    "type": "expense",
+    "amount": 176,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0072",
+    "user_id": "user_001",
+    "date": "2026-03-13",
+    "type": "expense",
+    "amount": 101,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0073",
+    "user_id": "user_001",
+    "date": "2026-03-14",
+    "type": "income",
+    "amount": 1150,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0074",
+    "user_id": "user_001",
+    "date": "2026-03-14",
+    "type": "expense",
+    "amount": 129,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0075",
+    "user_id": "user_001",
+    "date": "2026-03-15",
+    "type": "income",
+    "amount": 1103,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0076",
+    "user_id": "user_001",
+    "date": "2026-03-15",
+    "type": "expense",
+    "amount": 154,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0077",
+    "user_id": "user_001",
+    "date": "2026-03-15",
+    "type": "expense",
+    "amount": 94,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0078",
+    "user_id": "user_001",
+    "date": "2026-03-16",
+    "type": "income",
+    "amount": 654,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0079",
+    "user_id": "user_001",
+    "date": "2026-03-16",
+    "type": "expense",
+    "amount": 149,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0080",
+    "user_id": "user_001",
+    "date": "2026-03-16",
+    "type": "expense",
+    "amount": 101,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0081",
+    "user_id": "user_001",
+    "date": "2026-03-17",
+    "type": "income",
+    "amount": 791,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0082",
+    "user_id": "user_001",
+    "date": "2026-03-17",
+    "type": "expense",
+    "amount": 141,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0083",
+    "user_id": "user_001",
+    "date": "2026-03-17",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0084",
+    "user_id": "user_001",
+    "date": "2026-03-18",
+    "type": "income",
+    "amount": 798,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0085",
+    "user_id": "user_001",
+    "date": "2026-03-18",
+    "type": "expense",
+    "amount": 170,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0086",
+    "user_id": "user_001",
+    "date": "2026-03-18",
+    "type": "expense",
+    "amount": 94,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0087",
+    "user_id": "user_001",
+    "date": "2026-03-19",
+    "type": "income",
+    "amount": 743,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0088",
+    "user_id": "user_001",
+    "date": "2026-03-19",
+    "type": "expense",
+    "amount": 135,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0089",
+    "user_id": "user_001",
+    "date": "2026-03-20",
+    "type": "income",
+    "amount": 731,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0090",
+    "user_id": "user_001",
+    "date": "2026-03-20",
+    "type": "expense",
+    "amount": 165,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0091",
+    "user_id": "user_001",
+    "date": "2026-03-20",
+    "type": "expense",
+    "amount": 79,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0092",
+    "user_id": "user_001",
+    "date": "2026-03-21",
+    "type": "income",
+    "amount": 1009,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0093",
+    "user_id": "user_001",
+    "date": "2026-03-21",
+    "type": "expense",
+    "amount": 129,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0094",
+    "user_id": "user_001",
+    "date": "2026-03-22",
+    "type": "income",
+    "amount": 228,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0095",
+    "user_id": "user_001",
+    "date": "2026-03-22",
+    "type": "expense",
+    "amount": 143,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0096",
+    "user_id": "user_001",
+    "date": "2026-03-22",
+    "type": "expense",
+    "amount": 99,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0097",
+    "user_id": "user_001",
+    "date": "2026-03-23",
+    "type": "income",
+    "amount": 120,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0098",
+    "user_id": "user_001",
+    "date": "2026-03-23",
+    "type": "expense",
+    "amount": 151,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0099",
+    "user_id": "user_001",
+    "date": "2026-03-23",
+    "type": "expense",
+    "amount": 96,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0100",
+    "user_id": "user_001",
+    "date": "2026-03-24",
+    "type": "income",
+    "amount": 126,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0101",
+    "user_id": "user_001",
+    "date": "2026-03-24",
+    "type": "expense",
+    "amount": 151,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0102",
+    "user_id": "user_001",
+    "date": "2026-03-24",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0103",
+    "user_id": "user_001",
+    "date": "2026-03-25",
+    "type": "income",
+    "amount": 169,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0104",
+    "user_id": "user_001",
+    "date": "2026-03-25",
+    "type": "expense",
+    "amount": 138,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0105",
+    "user_id": "user_001",
+    "date": "2026-03-25",
+    "type": "expense",
+    "amount": 96,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0106",
+    "user_id": "user_001",
+    "date": "2026-03-28",
+    "type": "income",
+    "amount": 202,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0107",
+    "user_id": "user_001",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 149,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0108",
+    "user_id": "user_001",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0226",
+    "user_id": "user_001",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 8500,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0227",
+    "user_id": "user_001",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 850,
+    "category": "utilities",
+    "description": "Mobile & Internet",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_0109",
+    "user_id": "user_001",
+    "date": "2026-03-31",
+    "type": "income",
+    "amount": 141,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0110",
+    "user_id": "user_001",
+    "date": "2026-03-31",
+    "type": "expense",
+    "amount": 139,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0111",
+    "user_id": "user_001",
+    "date": "2026-03-31",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0112",
+    "user_id": "user_001",
+    "date": "2026-04-02",
+    "type": "income",
+    "amount": 232,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0113",
+    "user_id": "user_001",
+    "date": "2026-04-02",
+    "type": "expense",
+    "amount": 131,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0114",
+    "user_id": "user_001",
+    "date": "2026-04-02",
+    "type": "expense",
+    "amount": 94,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0115",
+    "user_id": "user_001",
+    "date": "2026-04-05",
+    "type": "income",
+    "amount": 1170,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0116",
+    "user_id": "user_001",
+    "date": "2026-04-05",
+    "type": "expense",
+    "amount": 155,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0117",
+    "user_id": "user_001",
+    "date": "2026-04-05",
+    "type": "expense",
+    "amount": 97,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0118",
+    "user_id": "user_001",
+    "date": "2026-04-06",
+    "type": "income",
+    "amount": 779,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0119",
+    "user_id": "user_001",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 137,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0120",
+    "user_id": "user_001",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 89,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0121",
+    "user_id": "user_001",
+    "date": "2026-04-07",
+    "type": "income",
+    "amount": 710,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0122",
+    "user_id": "user_001",
+    "date": "2026-04-07",
+    "type": "expense",
+    "amount": 150,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0123",
+    "user_id": "user_001",
+    "date": "2026-04-08",
+    "type": "income",
+    "amount": 755,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0124",
+    "user_id": "user_001",
+    "date": "2026-04-08",
+    "type": "expense",
+    "amount": 175,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0125",
+    "user_id": "user_001",
+    "date": "2026-04-08",
+    "type": "expense",
+    "amount": 88,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0126",
+    "user_id": "user_001",
+    "date": "2026-04-09",
+    "type": "income",
+    "amount": 695,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0127",
+    "user_id": "user_001",
+    "date": "2026-04-09",
+    "type": "expense",
+    "amount": 169,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0128",
+    "user_id": "user_001",
+    "date": "2026-04-09",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0129",
+    "user_id": "user_001",
+    "date": "2026-04-10",
+    "type": "income",
+    "amount": 714,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0130",
+    "user_id": "user_001",
+    "date": "2026-04-10",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0131",
+    "user_id": "user_001",
+    "date": "2026-04-10",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0132",
+    "user_id": "user_001",
+    "date": "2026-04-11",
+    "type": "income",
+    "amount": 1166,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0133",
+    "user_id": "user_001",
+    "date": "2026-04-11",
+    "type": "expense",
+    "amount": 149,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0134",
+    "user_id": "user_001",
+    "date": "2026-04-12",
+    "type": "income",
+    "amount": 1442,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0135",
+    "user_id": "user_001",
+    "date": "2026-04-12",
+    "type": "expense",
+    "amount": 130,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0136",
+    "user_id": "user_001",
+    "date": "2026-04-13",
+    "type": "income",
+    "amount": 784,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0137",
+    "user_id": "user_001",
+    "date": "2026-04-13",
+    "type": "expense",
+    "amount": 175,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0138",
+    "user_id": "user_001",
+    "date": "2026-04-14",
+    "type": "income",
+    "amount": 786,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0139",
+    "user_id": "user_001",
+    "date": "2026-04-14",
+    "type": "expense",
+    "amount": 136,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0140",
+    "user_id": "user_001",
+    "date": "2026-04-14",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0141",
+    "user_id": "user_001",
+    "date": "2026-04-15",
+    "type": "income",
+    "amount": 706,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0142",
+    "user_id": "user_001",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 131,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0143",
+    "user_id": "user_001",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 101,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0144",
+    "user_id": "user_001",
+    "date": "2026-04-16",
+    "type": "income",
+    "amount": 681,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0145",
+    "user_id": "user_001",
+    "date": "2026-04-16",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0146",
+    "user_id": "user_001",
+    "date": "2026-04-16",
+    "type": "expense",
+    "amount": 89,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0147",
+    "user_id": "user_001",
+    "date": "2026-04-17",
+    "type": "income",
+    "amount": 806,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0148",
+    "user_id": "user_001",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 176,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0149",
+    "user_id": "user_001",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 95,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0150",
+    "user_id": "user_001",
+    "date": "2026-04-18",
+    "type": "income",
+    "amount": 965,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0151",
+    "user_id": "user_001",
+    "date": "2026-04-18",
+    "type": "expense",
+    "amount": 142,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0152",
+    "user_id": "user_001",
+    "date": "2026-04-19",
+    "type": "income",
+    "amount": 1076,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0153",
+    "user_id": "user_001",
+    "date": "2026-04-19",
+    "type": "expense",
+    "amount": 154,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0154",
+    "user_id": "user_001",
+    "date": "2026-04-20",
+    "type": "income",
+    "amount": 644,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0155",
+    "user_id": "user_001",
+    "date": "2026-04-20",
+    "type": "expense",
+    "amount": 156,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0156",
+    "user_id": "user_001",
+    "date": "2026-04-20",
+    "type": "expense",
+    "amount": 98,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0157",
+    "user_id": "user_001",
+    "date": "2026-04-21",
+    "type": "income",
+    "amount": 662,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0158",
+    "user_id": "user_001",
+    "date": "2026-04-21",
+    "type": "expense",
+    "amount": 174,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0159",
+    "user_id": "user_001",
+    "date": "2026-04-21",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0160",
+    "user_id": "user_001",
+    "date": "2026-04-22",
+    "type": "income",
+    "amount": 741,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0161",
+    "user_id": "user_001",
+    "date": "2026-04-22",
+    "type": "expense",
+    "amount": 160,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0162",
+    "user_id": "user_001",
+    "date": "2026-04-22",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0163",
+    "user_id": "user_001",
+    "date": "2026-04-23",
+    "type": "income",
+    "amount": 794,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0164",
+    "user_id": "user_001",
+    "date": "2026-04-23",
+    "type": "expense",
+    "amount": 140,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0165",
+    "user_id": "user_001",
+    "date": "2026-04-23",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0166",
+    "user_id": "user_001",
+    "date": "2026-04-24",
+    "type": "income",
+    "amount": 709,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0167",
+    "user_id": "user_001",
+    "date": "2026-04-24",
+    "type": "expense",
+    "amount": 156,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0168",
+    "user_id": "user_001",
+    "date": "2026-04-24",
+    "type": "expense",
+    "amount": 100,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0169",
+    "user_id": "user_001",
+    "date": "2026-04-25",
+    "type": "income",
+    "amount": 978,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0170",
+    "user_id": "user_001",
+    "date": "2026-04-25",
+    "type": "expense",
+    "amount": 162,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0171",
+    "user_id": "user_001",
+    "date": "2026-04-25",
+    "type": "expense",
+    "amount": 88,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0172",
+    "user_id": "user_001",
+    "date": "2026-04-26",
+    "type": "income",
+    "amount": 1100,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0173",
+    "user_id": "user_001",
+    "date": "2026-04-26",
+    "type": "expense",
+    "amount": 142,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0174",
+    "user_id": "user_001",
+    "date": "2026-04-26",
+    "type": "expense",
+    "amount": 96,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0175",
+    "user_id": "user_001",
+    "date": "2026-04-27",
+    "type": "income",
+    "amount": 647,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0176",
+    "user_id": "user_001",
+    "date": "2026-04-27",
+    "type": "expense",
+    "amount": 150,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0177",
+    "user_id": "user_001",
+    "date": "2026-04-28",
+    "type": "income",
+    "amount": 813,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0178",
+    "user_id": "user_001",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 132,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0179",
+    "user_id": "user_001",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0228",
+    "user_id": "user_001",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 8500,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0229",
+    "user_id": "user_001",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 850,
+    "category": "utilities",
+    "description": "Mobile & Internet",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_0180",
+    "user_id": "user_001",
+    "date": "2026-04-29",
+    "type": "income",
+    "amount": 802,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0181",
+    "user_id": "user_001",
+    "date": "2026-04-29",
+    "type": "expense",
+    "amount": 170,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0182",
+    "user_id": "user_001",
+    "date": "2026-04-30",
+    "type": "income",
+    "amount": 700,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0183",
+    "user_id": "user_001",
+    "date": "2026-04-30",
+    "type": "expense",
+    "amount": 136,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0184",
+    "user_id": "user_001",
+    "date": "2026-05-01",
+    "type": "income",
+    "amount": 1026,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0185",
+    "user_id": "user_001",
+    "date": "2026-05-01",
+    "type": "expense",
+    "amount": 157,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0186",
+    "user_id": "user_001",
+    "date": "2026-05-02",
+    "type": "income",
+    "amount": 1096,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0187",
+    "user_id": "user_001",
+    "date": "2026-05-02",
+    "type": "expense",
+    "amount": 128,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0188",
+    "user_id": "user_001",
+    "date": "2026-05-03",
+    "type": "income",
+    "amount": 1003,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0189",
+    "user_id": "user_001",
+    "date": "2026-05-03",
+    "type": "expense",
+    "amount": 160,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0190",
+    "user_id": "user_001",
+    "date": "2026-05-04",
+    "type": "income",
+    "amount": 658,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0191",
+    "user_id": "user_001",
+    "date": "2026-05-04",
+    "type": "expense",
+    "amount": 134,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0192",
+    "user_id": "user_001",
+    "date": "2026-05-04",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0193",
+    "user_id": "user_001",
+    "date": "2026-05-05",
+    "type": "income",
+    "amount": 683,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0194",
+    "user_id": "user_001",
+    "date": "2026-05-05",
+    "type": "expense",
+    "amount": 157,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0195",
+    "user_id": "user_001",
+    "date": "2026-05-06",
+    "type": "income",
+    "amount": 670,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0196",
+    "user_id": "user_001",
+    "date": "2026-05-06",
+    "type": "expense",
+    "amount": 158,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0197",
+    "user_id": "user_001",
+    "date": "2026-05-06",
+    "type": "expense",
+    "amount": 90,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0198",
+    "user_id": "user_001",
+    "date": "2026-05-07",
+    "type": "income",
+    "amount": 797,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0199",
+    "user_id": "user_001",
+    "date": "2026-05-07",
+    "type": "expense",
+    "amount": 169,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0200",
+    "user_id": "user_001",
+    "date": "2026-05-07",
+    "type": "expense",
+    "amount": 89,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0201",
+    "user_id": "user_001",
+    "date": "2026-05-08",
+    "type": "income",
+    "amount": 683,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0202",
+    "user_id": "user_001",
+    "date": "2026-05-08",
+    "type": "expense",
+    "amount": 128,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0203",
+    "user_id": "user_001",
+    "date": "2026-05-09",
+    "type": "income",
+    "amount": 1091,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0204",
+    "user_id": "user_001",
+    "date": "2026-05-09",
+    "type": "expense",
+    "amount": 141,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0205",
+    "user_id": "user_001",
+    "date": "2026-05-10",
+    "type": "income",
+    "amount": 1443,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0206",
+    "user_id": "user_001",
+    "date": "2026-05-10",
+    "type": "expense",
+    "amount": 149,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0207",
+    "user_id": "user_001",
+    "date": "2026-05-10",
+    "type": "expense",
+    "amount": 81,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0208",
+    "user_id": "user_001",
+    "date": "2026-05-11",
+    "type": "income",
+    "amount": 793,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0209",
+    "user_id": "user_001",
+    "date": "2026-05-11",
+    "type": "expense",
+    "amount": 171,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0210",
+    "user_id": "user_001",
+    "date": "2026-05-11",
+    "type": "expense",
+    "amount": 98,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0211",
+    "user_id": "user_001",
+    "date": "2026-05-12",
+    "type": "income",
+    "amount": 738,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0212",
+    "user_id": "user_001",
+    "date": "2026-05-12",
+    "type": "expense",
+    "amount": 135,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0213",
+    "user_id": "user_001",
+    "date": "2026-05-12",
+    "type": "expense",
+    "amount": 86,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0214",
+    "user_id": "user_001",
+    "date": "2026-05-13",
+    "type": "income",
+    "amount": 795,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0215",
+    "user_id": "user_001",
+    "date": "2026-05-13",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0216",
+    "user_id": "user_001",
+    "date": "2026-05-14",
+    "type": "income",
+    "amount": 795,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0217",
+    "user_id": "user_001",
+    "date": "2026-05-14",
+    "type": "expense",
+    "amount": 138,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0218",
+    "user_id": "user_001",
+    "date": "2026-05-14",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0219",
+    "user_id": "user_001",
+    "date": "2026-05-15",
+    "type": "income",
+    "amount": 774,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0220",
+    "user_id": "user_001",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 170,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_0221",
+    "user_id": "user_001",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0230",
+    "user_id": "user_001",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 8500,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "cash"
+  },
+  {
+    "id": "txn_0231",
+    "user_id": "user_001",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 850,
+    "category": "utilities",
+    "description": "Mobile & Internet",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_0222",
+    "user_id": "user_001",
+    "date": "2026-05-16",
+    "type": "income",
+    "amount": 965,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber/Ola"
+  },
+  {
+    "id": "txn_0223",
+    "user_id": "user_001",
+    "date": "2026-05-16",
+    "type": "expense",
+    "amount": 173,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "BPCL"
+  },
+  {
+    "id": "txn_u2_0001",
+    "user_id": "user_002",
+    "date": "2026-02-15",
+    "type": "expense",
+    "amount": 1500,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u2_0002",
+    "user_id": "user_002",
+    "date": "2026-02-16",
+    "type": "income",
+    "amount": 912,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0003",
+    "user_id": "user_002",
+    "date": "2026-02-16",
+    "type": "expense",
+    "amount": 125,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0004",
+    "user_id": "user_002",
+    "date": "2026-02-16",
+    "type": "expense",
+    "amount": 78,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0005",
+    "user_id": "user_002",
+    "date": "2026-02-17",
+    "type": "income",
+    "amount": 1246,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0006",
+    "user_id": "user_002",
+    "date": "2026-02-17",
+    "type": "expense",
+    "amount": 147,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0007",
+    "user_id": "user_002",
+    "date": "2026-02-17",
+    "type": "expense",
+    "amount": 75,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0008",
+    "user_id": "user_002",
+    "date": "2026-02-18",
+    "type": "income",
+    "amount": 947,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0009",
+    "user_id": "user_002",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 124,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0010",
+    "user_id": "user_002",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 75,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0011",
+    "user_id": "user_002",
+    "date": "2026-02-19",
+    "type": "income",
+    "amount": 1187,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0012",
+    "user_id": "user_002",
+    "date": "2026-02-19",
+    "type": "expense",
+    "amount": 155,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0013",
+    "user_id": "user_002",
+    "date": "2026-02-19",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0014",
+    "user_id": "user_002",
+    "date": "2026-02-20",
+    "type": "income",
+    "amount": 1629,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0015",
+    "user_id": "user_002",
+    "date": "2026-02-20",
+    "type": "expense",
+    "amount": 138,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0016",
+    "user_id": "user_002",
+    "date": "2026-02-20",
+    "type": "expense",
+    "amount": 75,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0017",
+    "user_id": "user_002",
+    "date": "2026-02-21",
+    "type": "income",
+    "amount": 1363,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0018",
+    "user_id": "user_002",
+    "date": "2026-02-21",
+    "type": "expense",
+    "amount": 131,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0019",
+    "user_id": "user_002",
+    "date": "2026-02-21",
+    "type": "expense",
+    "amount": 81,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0020",
+    "user_id": "user_002",
+    "date": "2026-02-23",
+    "type": "income",
+    "amount": 1072,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0021",
+    "user_id": "user_002",
+    "date": "2026-02-23",
+    "type": "expense",
+    "amount": 115,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0022",
+    "user_id": "user_002",
+    "date": "2026-02-23",
+    "type": "expense",
+    "amount": 86,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0023",
+    "user_id": "user_002",
+    "date": "2026-02-24",
+    "type": "income",
+    "amount": 1333,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0024",
+    "user_id": "user_002",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0025",
+    "user_id": "user_002",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 76,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0026",
+    "user_id": "user_002",
+    "date": "2026-02-25",
+    "type": "income",
+    "amount": 1273,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0027",
+    "user_id": "user_002",
+    "date": "2026-02-25",
+    "type": "expense",
+    "amount": 144,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0028",
+    "user_id": "user_002",
+    "date": "2026-02-25",
+    "type": "expense",
+    "amount": 87,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0029",
+    "user_id": "user_002",
+    "date": "2026-02-26",
+    "type": "income",
+    "amount": 940,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0030",
+    "user_id": "user_002",
+    "date": "2026-02-26",
+    "type": "expense",
+    "amount": 150,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0031",
+    "user_id": "user_002",
+    "date": "2026-02-26",
+    "type": "expense",
+    "amount": 86,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0032",
+    "user_id": "user_002",
+    "date": "2026-02-27",
+    "type": "income",
+    "amount": 1396,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0033",
+    "user_id": "user_002",
+    "date": "2026-02-27",
+    "type": "expense",
+    "amount": 112,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0034",
+    "user_id": "user_002",
+    "date": "2026-02-27",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0035",
+    "user_id": "user_002",
+    "date": "2026-02-28",
+    "type": "income",
+    "amount": 1281,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0036",
+    "user_id": "user_002",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 116,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0037",
+    "user_id": "user_002",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 89,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0038",
+    "user_id": "user_002",
+    "date": "2026-03-01",
+    "type": "expense",
+    "amount": 8000,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "bank_transfer"
+  },
+  {
+    "id": "txn_u2_0039",
+    "user_id": "user_002",
+    "date": "2026-03-02",
+    "type": "income",
+    "amount": 1086,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0040",
+    "user_id": "user_002",
+    "date": "2026-03-02",
+    "type": "expense",
+    "amount": 133,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0041",
+    "user_id": "user_002",
+    "date": "2026-03-02",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0042",
+    "user_id": "user_002",
+    "date": "2026-03-03",
+    "type": "income",
+    "amount": 1259,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0043",
+    "user_id": "user_002",
+    "date": "2026-03-03",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0044",
+    "user_id": "user_002",
+    "date": "2026-03-03",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0045",
+    "user_id": "user_002",
+    "date": "2026-03-04",
+    "type": "income",
+    "amount": 1273,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0046",
+    "user_id": "user_002",
+    "date": "2026-03-04",
+    "type": "expense",
+    "amount": 120,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0047",
+    "user_id": "user_002",
+    "date": "2026-03-04",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0048",
+    "user_id": "user_002",
+    "date": "2026-03-05",
+    "type": "income",
+    "amount": 1227,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0049",
+    "user_id": "user_002",
+    "date": "2026-03-05",
+    "type": "expense",
+    "amount": 153,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0050",
+    "user_id": "user_002",
+    "date": "2026-03-05",
+    "type": "expense",
+    "amount": 76,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0051",
+    "user_id": "user_002",
+    "date": "2026-03-06",
+    "type": "income",
+    "amount": 1434,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0052",
+    "user_id": "user_002",
+    "date": "2026-03-06",
+    "type": "expense",
+    "amount": 130,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0053",
+    "user_id": "user_002",
+    "date": "2026-03-06",
+    "type": "expense",
+    "amount": 77,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0054",
+    "user_id": "user_002",
+    "date": "2026-03-07",
+    "type": "income",
+    "amount": 1416,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0055",
+    "user_id": "user_002",
+    "date": "2026-03-07",
+    "type": "expense",
+    "amount": 123,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0056",
+    "user_id": "user_002",
+    "date": "2026-03-07",
+    "type": "expense",
+    "amount": 87,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0057",
+    "user_id": "user_002",
+    "date": "2026-03-09",
+    "type": "income",
+    "amount": 1229,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0058",
+    "user_id": "user_002",
+    "date": "2026-03-09",
+    "type": "expense",
+    "amount": 119,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0059",
+    "user_id": "user_002",
+    "date": "2026-03-09",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0060",
+    "user_id": "user_002",
+    "date": "2026-03-10",
+    "type": "income",
+    "amount": 1281,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0061",
+    "user_id": "user_002",
+    "date": "2026-03-10",
+    "type": "expense",
+    "amount": 147,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0062",
+    "user_id": "user_002",
+    "date": "2026-03-10",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0063",
+    "user_id": "user_002",
+    "date": "2026-03-11",
+    "type": "income",
+    "amount": 1104,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0064",
+    "user_id": "user_002",
+    "date": "2026-03-11",
+    "type": "expense",
+    "amount": 124,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0065",
+    "user_id": "user_002",
+    "date": "2026-03-12",
+    "type": "income",
+    "amount": 970,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0066",
+    "user_id": "user_002",
+    "date": "2026-03-12",
+    "type": "expense",
+    "amount": 115,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0067",
+    "user_id": "user_002",
+    "date": "2026-03-12",
+    "type": "expense",
+    "amount": 78,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0068",
+    "user_id": "user_002",
+    "date": "2026-03-13",
+    "type": "income",
+    "amount": 1356,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0069",
+    "user_id": "user_002",
+    "date": "2026-03-13",
+    "type": "expense",
+    "amount": 153,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0070",
+    "user_id": "user_002",
+    "date": "2026-03-13",
+    "type": "expense",
+    "amount": 77,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0071",
+    "user_id": "user_002",
+    "date": "2026-03-14",
+    "type": "income",
+    "amount": 1594,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0072",
+    "user_id": "user_002",
+    "date": "2026-03-14",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0073",
+    "user_id": "user_002",
+    "date": "2026-03-15",
+    "type": "expense",
+    "amount": 1500,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u2_0074",
+    "user_id": "user_002",
+    "date": "2026-03-16",
+    "type": "income",
+    "amount": 1183,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0075",
+    "user_id": "user_002",
+    "date": "2026-03-16",
+    "type": "expense",
+    "amount": 153,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0076",
+    "user_id": "user_002",
+    "date": "2026-03-16",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0077",
+    "user_id": "user_002",
+    "date": "2026-03-17",
+    "type": "income",
+    "amount": 1284,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0078",
+    "user_id": "user_002",
+    "date": "2026-03-17",
+    "type": "expense",
+    "amount": 151,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0079",
+    "user_id": "user_002",
+    "date": "2026-03-17",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0080",
+    "user_id": "user_002",
+    "date": "2026-03-18",
+    "type": "income",
+    "amount": 1122,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0081",
+    "user_id": "user_002",
+    "date": "2026-03-18",
+    "type": "expense",
+    "amount": 139,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0082",
+    "user_id": "user_002",
+    "date": "2026-03-18",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0083",
+    "user_id": "user_002",
+    "date": "2026-03-19",
+    "type": "income",
+    "amount": 1156,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0084",
+    "user_id": "user_002",
+    "date": "2026-03-19",
+    "type": "expense",
+    "amount": 142,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0085",
+    "user_id": "user_002",
+    "date": "2026-03-20",
+    "type": "income",
+    "amount": 1505,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0086",
+    "user_id": "user_002",
+    "date": "2026-03-20",
+    "type": "expense",
+    "amount": 119,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0087",
+    "user_id": "user_002",
+    "date": "2026-03-20",
+    "type": "expense",
+    "amount": 80,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0088",
+    "user_id": "user_002",
+    "date": "2026-03-21",
+    "type": "income",
+    "amount": 1743,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0089",
+    "user_id": "user_002",
+    "date": "2026-03-21",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0090",
+    "user_id": "user_002",
+    "date": "2026-03-21",
+    "type": "expense",
+    "amount": 75,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0091",
+    "user_id": "user_002",
+    "date": "2026-03-24",
+    "type": "income",
+    "amount": 1085,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0092",
+    "user_id": "user_002",
+    "date": "2026-03-24",
+    "type": "expense",
+    "amount": 125,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0093",
+    "user_id": "user_002",
+    "date": "2026-03-24",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0094",
+    "user_id": "user_002",
+    "date": "2026-03-25",
+    "type": "income",
+    "amount": 940,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0095",
+    "user_id": "user_002",
+    "date": "2026-03-25",
+    "type": "expense",
+    "amount": 141,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0096",
+    "user_id": "user_002",
+    "date": "2026-03-25",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0097",
+    "user_id": "user_002",
+    "date": "2026-03-26",
+    "type": "income",
+    "amount": 1292,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0098",
+    "user_id": "user_002",
+    "date": "2026-03-26",
+    "type": "expense",
+    "amount": 118,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0099",
+    "user_id": "user_002",
+    "date": "2026-03-26",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0100",
+    "user_id": "user_002",
+    "date": "2026-03-27",
+    "type": "income",
+    "amount": 1369,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0101",
+    "user_id": "user_002",
+    "date": "2026-03-27",
+    "type": "expense",
+    "amount": 143,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0102",
+    "user_id": "user_002",
+    "date": "2026-03-28",
+    "type": "income",
+    "amount": 1633,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0103",
+    "user_id": "user_002",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 144,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0104",
+    "user_id": "user_002",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 81,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0105",
+    "user_id": "user_002",
+    "date": "2026-03-30",
+    "type": "income",
+    "amount": 1104,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0106",
+    "user_id": "user_002",
+    "date": "2026-03-30",
+    "type": "expense",
+    "amount": 138,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0107",
+    "user_id": "user_002",
+    "date": "2026-03-31",
+    "type": "income",
+    "amount": 1131,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0108",
+    "user_id": "user_002",
+    "date": "2026-03-31",
+    "type": "expense",
+    "amount": 125,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0109",
+    "user_id": "user_002",
+    "date": "2026-03-31",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0110",
+    "user_id": "user_002",
+    "date": "2026-04-01",
+    "type": "income",
+    "amount": 910,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0111",
+    "user_id": "user_002",
+    "date": "2026-04-01",
+    "type": "expense",
+    "amount": 147,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0112",
+    "user_id": "user_002",
+    "date": "2026-04-01",
+    "type": "expense",
+    "amount": 77,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0113",
+    "user_id": "user_002",
+    "date": "2026-04-01",
+    "type": "expense",
+    "amount": 8000,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "bank_transfer"
+  },
+  {
+    "id": "txn_u2_0114",
+    "user_id": "user_002",
+    "date": "2026-04-02",
+    "type": "income",
+    "amount": 1262,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0115",
+    "user_id": "user_002",
+    "date": "2026-04-02",
+    "type": "expense",
+    "amount": 124,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0116",
+    "user_id": "user_002",
+    "date": "2026-04-02",
+    "type": "expense",
+    "amount": 76,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0117",
+    "user_id": "user_002",
+    "date": "2026-04-03",
+    "type": "income",
+    "amount": 1538,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0118",
+    "user_id": "user_002",
+    "date": "2026-04-03",
+    "type": "expense",
+    "amount": 142,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0119",
+    "user_id": "user_002",
+    "date": "2026-04-03",
+    "type": "expense",
+    "amount": 90,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0120",
+    "user_id": "user_002",
+    "date": "2026-04-04",
+    "type": "income",
+    "amount": 1419,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0121",
+    "user_id": "user_002",
+    "date": "2026-04-04",
+    "type": "expense",
+    "amount": 146,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0122",
+    "user_id": "user_002",
+    "date": "2026-04-04",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0123",
+    "user_id": "user_002",
+    "date": "2026-04-06",
+    "type": "income",
+    "amount": 1313,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0124",
+    "user_id": "user_002",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 122,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0125",
+    "user_id": "user_002",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 88,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0126",
+    "user_id": "user_002",
+    "date": "2026-04-07",
+    "type": "income",
+    "amount": 1081,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0127",
+    "user_id": "user_002",
+    "date": "2026-04-07",
+    "type": "expense",
+    "amount": 136,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0128",
+    "user_id": "user_002",
+    "date": "2026-04-07",
+    "type": "expense",
+    "amount": 76,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0129",
+    "user_id": "user_002",
+    "date": "2026-04-08",
+    "type": "income",
+    "amount": 1244,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0130",
+    "user_id": "user_002",
+    "date": "2026-04-08",
+    "type": "expense",
+    "amount": 113,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0131",
+    "user_id": "user_002",
+    "date": "2026-04-08",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0132",
+    "user_id": "user_002",
+    "date": "2026-04-09",
+    "type": "income",
+    "amount": 1309,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0133",
+    "user_id": "user_002",
+    "date": "2026-04-09",
+    "type": "expense",
+    "amount": 125,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0134",
+    "user_id": "user_002",
+    "date": "2026-04-09",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0135",
+    "user_id": "user_002",
+    "date": "2026-04-10",
+    "type": "income",
+    "amount": 1659,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0136",
+    "user_id": "user_002",
+    "date": "2026-04-10",
+    "type": "expense",
+    "amount": 137,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0137",
+    "user_id": "user_002",
+    "date": "2026-04-10",
+    "type": "expense",
+    "amount": 89,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0138",
+    "user_id": "user_002",
+    "date": "2026-04-11",
+    "type": "income",
+    "amount": 1455,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0139",
+    "user_id": "user_002",
+    "date": "2026-04-11",
+    "type": "expense",
+    "amount": 138,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0140",
+    "user_id": "user_002",
+    "date": "2026-04-11",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0141",
+    "user_id": "user_002",
+    "date": "2026-04-14",
+    "type": "income",
+    "amount": 1233,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0142",
+    "user_id": "user_002",
+    "date": "2026-04-14",
+    "type": "expense",
+    "amount": 115,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0143",
+    "user_id": "user_002",
+    "date": "2026-04-15",
+    "type": "income",
+    "amount": 1334,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0144",
+    "user_id": "user_002",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 120,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0145",
+    "user_id": "user_002",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 90,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0146",
+    "user_id": "user_002",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 1500,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u2_0147",
+    "user_id": "user_002",
+    "date": "2026-04-16",
+    "type": "income",
+    "amount": 1009,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0148",
+    "user_id": "user_002",
+    "date": "2026-04-16",
+    "type": "expense",
+    "amount": 113,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0149",
+    "user_id": "user_002",
+    "date": "2026-04-16",
+    "type": "expense",
+    "amount": 75,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0150",
+    "user_id": "user_002",
+    "date": "2026-04-17",
+    "type": "income",
+    "amount": 1599,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0151",
+    "user_id": "user_002",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 139,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0152",
+    "user_id": "user_002",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0153",
+    "user_id": "user_002",
+    "date": "2026-04-18",
+    "type": "income",
+    "amount": 1698,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0154",
+    "user_id": "user_002",
+    "date": "2026-04-18",
+    "type": "expense",
+    "amount": 122,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0155",
+    "user_id": "user_002",
+    "date": "2026-04-18",
+    "type": "expense",
+    "amount": 76,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0156",
+    "user_id": "user_002",
+    "date": "2026-04-20",
+    "type": "income",
+    "amount": 1177,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0157",
+    "user_id": "user_002",
+    "date": "2026-04-20",
+    "type": "expense",
+    "amount": 130,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0158",
+    "user_id": "user_002",
+    "date": "2026-04-20",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0159",
+    "user_id": "user_002",
+    "date": "2026-04-21",
+    "type": "income",
+    "amount": 1144,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0160",
+    "user_id": "user_002",
+    "date": "2026-04-21",
+    "type": "expense",
+    "amount": 113,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0161",
+    "user_id": "user_002",
+    "date": "2026-04-22",
+    "type": "income",
+    "amount": 941,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0162",
+    "user_id": "user_002",
+    "date": "2026-04-22",
+    "type": "expense",
+    "amount": 114,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0163",
+    "user_id": "user_002",
+    "date": "2026-04-22",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0164",
+    "user_id": "user_002",
+    "date": "2026-04-23",
+    "type": "income",
+    "amount": 1106,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0165",
+    "user_id": "user_002",
+    "date": "2026-04-23",
+    "type": "expense",
+    "amount": 146,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0166",
+    "user_id": "user_002",
+    "date": "2026-04-23",
+    "type": "expense",
+    "amount": 94,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0167",
+    "user_id": "user_002",
+    "date": "2026-04-24",
+    "type": "income",
+    "amount": 1240,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0168",
+    "user_id": "user_002",
+    "date": "2026-04-24",
+    "type": "expense",
+    "amount": 136,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0169",
+    "user_id": "user_002",
+    "date": "2026-04-24",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0170",
+    "user_id": "user_002",
+    "date": "2026-04-25",
+    "type": "income",
+    "amount": 1735,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0171",
+    "user_id": "user_002",
+    "date": "2026-04-25",
+    "type": "expense",
+    "amount": 126,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0172",
+    "user_id": "user_002",
+    "date": "2026-04-25",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0173",
+    "user_id": "user_002",
+    "date": "2026-04-27",
+    "type": "income",
+    "amount": 1102,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0174",
+    "user_id": "user_002",
+    "date": "2026-04-27",
+    "type": "expense",
+    "amount": 152,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0175",
+    "user_id": "user_002",
+    "date": "2026-04-27",
+    "type": "expense",
+    "amount": 89,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0176",
+    "user_id": "user_002",
+    "date": "2026-04-28",
+    "type": "income",
+    "amount": 1061,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0177",
+    "user_id": "user_002",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 110,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0178",
+    "user_id": "user_002",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0179",
+    "user_id": "user_002",
+    "date": "2026-04-29",
+    "type": "income",
+    "amount": 951,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0180",
+    "user_id": "user_002",
+    "date": "2026-04-29",
+    "type": "expense",
+    "amount": 144,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0181",
+    "user_id": "user_002",
+    "date": "2026-04-29",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0182",
+    "user_id": "user_002",
+    "date": "2026-04-30",
+    "type": "income",
+    "amount": 967,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0183",
+    "user_id": "user_002",
+    "date": "2026-04-30",
+    "type": "expense",
+    "amount": 114,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0184",
+    "user_id": "user_002",
+    "date": "2026-05-01",
+    "type": "income",
+    "amount": 1578,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0185",
+    "user_id": "user_002",
+    "date": "2026-05-01",
+    "type": "expense",
+    "amount": 120,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0186",
+    "user_id": "user_002",
+    "date": "2026-05-01",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0187",
+    "user_id": "user_002",
+    "date": "2026-05-01",
+    "type": "expense",
+    "amount": 8000,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "bank_transfer"
+  },
+  {
+    "id": "txn_u2_0188",
+    "user_id": "user_002",
+    "date": "2026-05-02",
+    "type": "income",
+    "amount": 1509,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0189",
+    "user_id": "user_002",
+    "date": "2026-05-02",
+    "type": "expense",
+    "amount": 152,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0190",
+    "user_id": "user_002",
+    "date": "2026-05-02",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0191",
+    "user_id": "user_002",
+    "date": "2026-05-04",
+    "type": "income",
+    "amount": 953,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0192",
+    "user_id": "user_002",
+    "date": "2026-05-04",
+    "type": "expense",
+    "amount": 126,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0193",
+    "user_id": "user_002",
+    "date": "2026-05-04",
+    "type": "expense",
+    "amount": 78,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0194",
+    "user_id": "user_002",
+    "date": "2026-05-05",
+    "type": "income",
+    "amount": 1280,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0195",
+    "user_id": "user_002",
+    "date": "2026-05-05",
+    "type": "expense",
+    "amount": 127,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0196",
+    "user_id": "user_002",
+    "date": "2026-05-05",
+    "type": "expense",
+    "amount": 81,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0197",
+    "user_id": "user_002",
+    "date": "2026-05-06",
+    "type": "income",
+    "amount": 1267,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0198",
+    "user_id": "user_002",
+    "date": "2026-05-06",
+    "type": "expense",
+    "amount": 123,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0199",
+    "user_id": "user_002",
+    "date": "2026-05-06",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0200",
+    "user_id": "user_002",
+    "date": "2026-05-07",
+    "type": "income",
+    "amount": 1158,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0201",
+    "user_id": "user_002",
+    "date": "2026-05-07",
+    "type": "expense",
+    "amount": 126,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0202",
+    "user_id": "user_002",
+    "date": "2026-05-08",
+    "type": "income",
+    "amount": 1252,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0203",
+    "user_id": "user_002",
+    "date": "2026-05-08",
+    "type": "expense",
+    "amount": 150,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0204",
+    "user_id": "user_002",
+    "date": "2026-05-08",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0205",
+    "user_id": "user_002",
+    "date": "2026-05-09",
+    "type": "income",
+    "amount": 1245,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0206",
+    "user_id": "user_002",
+    "date": "2026-05-09",
+    "type": "expense",
+    "amount": 131,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0207",
+    "user_id": "user_002",
+    "date": "2026-05-09",
+    "type": "expense",
+    "amount": 95,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0208",
+    "user_id": "user_002",
+    "date": "2026-05-11",
+    "type": "income",
+    "amount": 982,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0209",
+    "user_id": "user_002",
+    "date": "2026-05-11",
+    "type": "expense",
+    "amount": 145,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0210",
+    "user_id": "user_002",
+    "date": "2026-05-11",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0211",
+    "user_id": "user_002",
+    "date": "2026-05-12",
+    "type": "income",
+    "amount": 904,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0212",
+    "user_id": "user_002",
+    "date": "2026-05-12",
+    "type": "expense",
+    "amount": 114,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0213",
+    "user_id": "user_002",
+    "date": "2026-05-13",
+    "type": "income",
+    "amount": 1253,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0214",
+    "user_id": "user_002",
+    "date": "2026-05-13",
+    "type": "expense",
+    "amount": 144,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0215",
+    "user_id": "user_002",
+    "date": "2026-05-13",
+    "type": "expense",
+    "amount": 86,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0216",
+    "user_id": "user_002",
+    "date": "2026-05-14",
+    "type": "income",
+    "amount": 1198,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0217",
+    "user_id": "user_002",
+    "date": "2026-05-14",
+    "type": "expense",
+    "amount": 137,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0218",
+    "user_id": "user_002",
+    "date": "2026-05-14",
+    "type": "expense",
+    "amount": 84,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0219",
+    "user_id": "user_002",
+    "date": "2026-05-15",
+    "type": "income",
+    "amount": 1573,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Rapido"
+  },
+  {
+    "id": "txn_u2_0220",
+    "user_id": "user_002",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 132,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u2_0221",
+    "user_id": "user_002",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 82,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u2_0222",
+    "user_id": "user_002",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 1500,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u2_0223",
+    "user_id": "user_002",
+    "date": "2026-05-16",
+    "type": "income",
+    "amount": 1305,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u2_0224",
+    "user_id": "user_002",
+    "date": "2026-05-16",
+    "type": "expense",
+    "amount": 145,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "HPCL"
+  },
+  {
+    "id": "txn_u3_0001",
+    "user_id": "user_003",
+    "date": "2026-02-15",
+    "type": "income",
+    "amount": 821,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0002",
+    "user_id": "user_003",
+    "date": "2026-02-15",
+    "type": "expense",
+    "amount": 190,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0003",
+    "user_id": "user_003",
+    "date": "2026-02-15",
+    "type": "expense",
+    "amount": 113,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0004",
+    "user_id": "user_003",
+    "date": "2026-02-15",
+    "type": "expense",
+    "amount": 2000,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u3_0005",
+    "user_id": "user_003",
+    "date": "2026-02-16",
+    "type": "income",
+    "amount": 869,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0006",
+    "user_id": "user_003",
+    "date": "2026-02-16",
+    "type": "expense",
+    "amount": 149,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0007",
+    "user_id": "user_003",
+    "date": "2026-02-16",
+    "type": "expense",
+    "amount": 119,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0008",
+    "user_id": "user_003",
+    "date": "2026-02-17",
+    "type": "income",
+    "amount": 810,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0009",
+    "user_id": "user_003",
+    "date": "2026-02-17",
+    "type": "expense",
+    "amount": 145,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0010",
+    "user_id": "user_003",
+    "date": "2026-02-17",
+    "type": "expense",
+    "amount": 123,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0011",
+    "user_id": "user_003",
+    "date": "2026-02-18",
+    "type": "income",
+    "amount": 564,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0012",
+    "user_id": "user_003",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 160,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0013",
+    "user_id": "user_003",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 115,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0014",
+    "user_id": "user_003",
+    "date": "2026-02-18",
+    "type": "expense",
+    "amount": 871,
+    "category": "medical",
+    "description": "Medical/Pharmacy",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0015",
+    "user_id": "user_003",
+    "date": "2026-02-19",
+    "type": "expense",
+    "amount": 73,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0016",
+    "user_id": "user_003",
+    "date": "2026-02-21",
+    "type": "expense",
+    "amount": 72,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0017",
+    "user_id": "user_003",
+    "date": "2026-02-23",
+    "type": "income",
+    "amount": 630,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0018",
+    "user_id": "user_003",
+    "date": "2026-02-23",
+    "type": "expense",
+    "amount": 187,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0019",
+    "user_id": "user_003",
+    "date": "2026-02-23",
+    "type": "expense",
+    "amount": 118,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0020",
+    "user_id": "user_003",
+    "date": "2026-02-24",
+    "type": "income",
+    "amount": 610,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0021",
+    "user_id": "user_003",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 142,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0022",
+    "user_id": "user_003",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 97,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0023",
+    "user_id": "user_003",
+    "date": "2026-02-24",
+    "type": "expense",
+    "amount": 785,
+    "category": "medical",
+    "description": "Medical/Pharmacy",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0024",
+    "user_id": "user_003",
+    "date": "2026-02-25",
+    "type": "income",
+    "amount": 870,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0025",
+    "user_id": "user_003",
+    "date": "2026-02-25",
+    "type": "expense",
+    "amount": 145,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0026",
+    "user_id": "user_003",
+    "date": "2026-02-25",
+    "type": "expense",
+    "amount": 117,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0027",
+    "user_id": "user_003",
+    "date": "2026-02-26",
+    "type": "income",
+    "amount": 593,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0028",
+    "user_id": "user_003",
+    "date": "2026-02-26",
+    "type": "expense",
+    "amount": 179,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0029",
+    "user_id": "user_003",
+    "date": "2026-02-26",
+    "type": "expense",
+    "amount": 90,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0030",
+    "user_id": "user_003",
+    "date": "2026-02-27",
+    "type": "expense",
+    "amount": 85,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0031",
+    "user_id": "user_003",
+    "date": "2026-02-28",
+    "type": "income",
+    "amount": 728,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0032",
+    "user_id": "user_003",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 168,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0033",
+    "user_id": "user_003",
+    "date": "2026-02-28",
+    "type": "expense",
+    "amount": 106,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0034",
+    "user_id": "user_003",
+    "date": "2026-03-01",
+    "type": "income",
+    "amount": 911,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0035",
+    "user_id": "user_003",
+    "date": "2026-03-01",
+    "type": "expense",
+    "amount": 162,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0036",
+    "user_id": "user_003",
+    "date": "2026-03-01",
+    "type": "expense",
+    "amount": 120,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0037",
+    "user_id": "user_003",
+    "date": "2026-03-01",
+    "type": "expense",
+    "amount": 13000,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "bank_transfer"
+  },
+  {
+    "id": "txn_u3_0038",
+    "user_id": "user_003",
+    "date": "2026-03-02",
+    "type": "income",
+    "amount": 587,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0039",
+    "user_id": "user_003",
+    "date": "2026-03-02",
+    "type": "expense",
+    "amount": 178,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0040",
+    "user_id": "user_003",
+    "date": "2026-03-02",
+    "type": "expense",
+    "amount": 116,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0041",
+    "user_id": "user_003",
+    "date": "2026-03-03",
+    "type": "income",
+    "amount": 580,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0042",
+    "user_id": "user_003",
+    "date": "2026-03-03",
+    "type": "expense",
+    "amount": 158,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0043",
+    "user_id": "user_003",
+    "date": "2026-03-03",
+    "type": "expense",
+    "amount": 101,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0044",
+    "user_id": "user_003",
+    "date": "2026-03-04",
+    "type": "income",
+    "amount": 729,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0045",
+    "user_id": "user_003",
+    "date": "2026-03-04",
+    "type": "expense",
+    "amount": 153,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0046",
+    "user_id": "user_003",
+    "date": "2026-03-04",
+    "type": "expense",
+    "amount": 125,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0047",
+    "user_id": "user_003",
+    "date": "2026-03-05",
+    "type": "income",
+    "amount": 775,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0048",
+    "user_id": "user_003",
+    "date": "2026-03-05",
+    "type": "expense",
+    "amount": 194,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0049",
+    "user_id": "user_003",
+    "date": "2026-03-05",
+    "type": "expense",
+    "amount": 106,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0050",
+    "user_id": "user_003",
+    "date": "2026-03-07",
+    "type": "income",
+    "amount": 737,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0051",
+    "user_id": "user_003",
+    "date": "2026-03-07",
+    "type": "expense",
+    "amount": 140,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0052",
+    "user_id": "user_003",
+    "date": "2026-03-07",
+    "type": "expense",
+    "amount": 127,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0053",
+    "user_id": "user_003",
+    "date": "2026-03-08",
+    "type": "income",
+    "amount": 692,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0054",
+    "user_id": "user_003",
+    "date": "2026-03-08",
+    "type": "expense",
+    "amount": 164,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0055",
+    "user_id": "user_003",
+    "date": "2026-03-08",
+    "type": "expense",
+    "amount": 115,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0056",
+    "user_id": "user_003",
+    "date": "2026-03-09",
+    "type": "income",
+    "amount": 724,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0057",
+    "user_id": "user_003",
+    "date": "2026-03-09",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0058",
+    "user_id": "user_003",
+    "date": "2026-03-09",
+    "type": "expense",
+    "amount": 113,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0059",
+    "user_id": "user_003",
+    "date": "2026-03-10",
+    "type": "income",
+    "amount": 612,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0060",
+    "user_id": "user_003",
+    "date": "2026-03-10",
+    "type": "expense",
+    "amount": 163,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0061",
+    "user_id": "user_003",
+    "date": "2026-03-10",
+    "type": "expense",
+    "amount": 115,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0062",
+    "user_id": "user_003",
+    "date": "2026-03-11",
+    "type": "expense",
+    "amount": 74,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0063",
+    "user_id": "user_003",
+    "date": "2026-03-12",
+    "type": "income",
+    "amount": 679,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0064",
+    "user_id": "user_003",
+    "date": "2026-03-12",
+    "type": "expense",
+    "amount": 195,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0065",
+    "user_id": "user_003",
+    "date": "2026-03-12",
+    "type": "expense",
+    "amount": 110,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0066",
+    "user_id": "user_003",
+    "date": "2026-03-13",
+    "type": "income",
+    "amount": 1064,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0067",
+    "user_id": "user_003",
+    "date": "2026-03-13",
+    "type": "expense",
+    "amount": 164,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0068",
+    "user_id": "user_003",
+    "date": "2026-03-13",
+    "type": "expense",
+    "amount": 108,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0069",
+    "user_id": "user_003",
+    "date": "2026-03-14",
+    "type": "income",
+    "amount": 741,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0070",
+    "user_id": "user_003",
+    "date": "2026-03-14",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0071",
+    "user_id": "user_003",
+    "date": "2026-03-14",
+    "type": "expense",
+    "amount": 106,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0072",
+    "user_id": "user_003",
+    "date": "2026-03-15",
+    "type": "income",
+    "amount": 670,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0073",
+    "user_id": "user_003",
+    "date": "2026-03-15",
+    "type": "expense",
+    "amount": 190,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0074",
+    "user_id": "user_003",
+    "date": "2026-03-15",
+    "type": "expense",
+    "amount": 120,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0075",
+    "user_id": "user_003",
+    "date": "2026-03-15",
+    "type": "expense",
+    "amount": 2000,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u3_0076",
+    "user_id": "user_003",
+    "date": "2026-03-17",
+    "type": "income",
+    "amount": 668,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0077",
+    "user_id": "user_003",
+    "date": "2026-03-17",
+    "type": "expense",
+    "amount": 182,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0078",
+    "user_id": "user_003",
+    "date": "2026-03-17",
+    "type": "expense",
+    "amount": 129,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0079",
+    "user_id": "user_003",
+    "date": "2026-03-18",
+    "type": "income",
+    "amount": 714,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0080",
+    "user_id": "user_003",
+    "date": "2026-03-18",
+    "type": "expense",
+    "amount": 152,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0081",
+    "user_id": "user_003",
+    "date": "2026-03-18",
+    "type": "expense",
+    "amount": 114,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0082",
+    "user_id": "user_003",
+    "date": "2026-03-19",
+    "type": "expense",
+    "amount": 60,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0083",
+    "user_id": "user_003",
+    "date": "2026-03-20",
+    "type": "income",
+    "amount": 1055,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0084",
+    "user_id": "user_003",
+    "date": "2026-03-20",
+    "type": "expense",
+    "amount": 194,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0085",
+    "user_id": "user_003",
+    "date": "2026-03-20",
+    "type": "expense",
+    "amount": 102,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0086",
+    "user_id": "user_003",
+    "date": "2026-03-21",
+    "type": "income",
+    "amount": 1041,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0087",
+    "user_id": "user_003",
+    "date": "2026-03-21",
+    "type": "expense",
+    "amount": 190,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0088",
+    "user_id": "user_003",
+    "date": "2026-03-21",
+    "type": "expense",
+    "amount": 130,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0089",
+    "user_id": "user_003",
+    "date": "2026-03-22",
+    "type": "income",
+    "amount": 733,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0090",
+    "user_id": "user_003",
+    "date": "2026-03-22",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0091",
+    "user_id": "user_003",
+    "date": "2026-03-22",
+    "type": "expense",
+    "amount": 112,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0092",
+    "user_id": "user_003",
+    "date": "2026-03-23",
+    "type": "income",
+    "amount": 521,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0093",
+    "user_id": "user_003",
+    "date": "2026-03-23",
+    "type": "expense",
+    "amount": 172,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0094",
+    "user_id": "user_003",
+    "date": "2026-03-23",
+    "type": "expense",
+    "amount": 124,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0095",
+    "user_id": "user_003",
+    "date": "2026-03-24",
+    "type": "income",
+    "amount": 787,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0096",
+    "user_id": "user_003",
+    "date": "2026-03-24",
+    "type": "expense",
+    "amount": 183,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0097",
+    "user_id": "user_003",
+    "date": "2026-03-24",
+    "type": "expense",
+    "amount": 100,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0098",
+    "user_id": "user_003",
+    "date": "2026-03-26",
+    "type": "income",
+    "amount": 655,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0099",
+    "user_id": "user_003",
+    "date": "2026-03-26",
+    "type": "expense",
+    "amount": 169,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0100",
+    "user_id": "user_003",
+    "date": "2026-03-26",
+    "type": "expense",
+    "amount": 125,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0101",
+    "user_id": "user_003",
+    "date": "2026-03-27",
+    "type": "income",
+    "amount": 1017,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0102",
+    "user_id": "user_003",
+    "date": "2026-03-27",
+    "type": "expense",
+    "amount": 152,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0103",
+    "user_id": "user_003",
+    "date": "2026-03-27",
+    "type": "expense",
+    "amount": 91,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0104",
+    "user_id": "user_003",
+    "date": "2026-03-28",
+    "type": "income",
+    "amount": 857,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0105",
+    "user_id": "user_003",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 177,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0106",
+    "user_id": "user_003",
+    "date": "2026-03-28",
+    "type": "expense",
+    "amount": 92,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0107",
+    "user_id": "user_003",
+    "date": "2026-03-29",
+    "type": "expense",
+    "amount": 83,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0108",
+    "user_id": "user_003",
+    "date": "2026-03-30",
+    "type": "income",
+    "amount": 840,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0109",
+    "user_id": "user_003",
+    "date": "2026-03-30",
+    "type": "expense",
+    "amount": 152,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0110",
+    "user_id": "user_003",
+    "date": "2026-03-30",
+    "type": "expense",
+    "amount": 96,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0111",
+    "user_id": "user_003",
+    "date": "2026-03-31",
+    "type": "income",
+    "amount": 722,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0112",
+    "user_id": "user_003",
+    "date": "2026-03-31",
+    "type": "expense",
+    "amount": 190,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0113",
+    "user_id": "user_003",
+    "date": "2026-03-31",
+    "type": "expense",
+    "amount": 101,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0114",
+    "user_id": "user_003",
+    "date": "2026-04-01",
+    "type": "income",
+    "amount": 688,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0115",
+    "user_id": "user_003",
+    "date": "2026-04-01",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0116",
+    "user_id": "user_003",
+    "date": "2026-04-01",
+    "type": "expense",
+    "amount": 118,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0117",
+    "user_id": "user_003",
+    "date": "2026-04-01",
+    "type": "expense",
+    "amount": 13000,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "bank_transfer"
+  },
+  {
+    "id": "txn_u3_0118",
+    "user_id": "user_003",
+    "date": "2026-04-03",
+    "type": "income",
+    "amount": 987,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0119",
+    "user_id": "user_003",
+    "date": "2026-04-03",
+    "type": "expense",
+    "amount": 163,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0120",
+    "user_id": "user_003",
+    "date": "2026-04-03",
+    "type": "expense",
+    "amount": 106,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0121",
+    "user_id": "user_003",
+    "date": "2026-04-04",
+    "type": "income",
+    "amount": 937,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0122",
+    "user_id": "user_003",
+    "date": "2026-04-04",
+    "type": "expense",
+    "amount": 151,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0123",
+    "user_id": "user_003",
+    "date": "2026-04-04",
+    "type": "expense",
+    "amount": 120,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0124",
+    "user_id": "user_003",
+    "date": "2026-04-05",
+    "type": "income",
+    "amount": 840,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0125",
+    "user_id": "user_003",
+    "date": "2026-04-05",
+    "type": "expense",
+    "amount": 182,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0126",
+    "user_id": "user_003",
+    "date": "2026-04-05",
+    "type": "expense",
+    "amount": 100,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0127",
+    "user_id": "user_003",
+    "date": "2026-04-06",
+    "type": "income",
+    "amount": 792,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0128",
+    "user_id": "user_003",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 169,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0129",
+    "user_id": "user_003",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 123,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0130",
+    "user_id": "user_003",
+    "date": "2026-04-06",
+    "type": "expense",
+    "amount": 637,
+    "category": "medical",
+    "description": "Medical/Pharmacy",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0131",
+    "user_id": "user_003",
+    "date": "2026-04-08",
+    "type": "expense",
+    "amount": 845,
+    "category": "medical",
+    "description": "Medical/Pharmacy",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0132",
+    "user_id": "user_003",
+    "date": "2026-04-09",
+    "type": "expense",
+    "amount": 60,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0133",
+    "user_id": "user_003",
+    "date": "2026-04-10",
+    "type": "expense",
+    "amount": 70,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0134",
+    "user_id": "user_003",
+    "date": "2026-04-11",
+    "type": "income",
+    "amount": 724,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0135",
+    "user_id": "user_003",
+    "date": "2026-04-11",
+    "type": "expense",
+    "amount": 142,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0136",
+    "user_id": "user_003",
+    "date": "2026-04-11",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0137",
+    "user_id": "user_003",
+    "date": "2026-04-12",
+    "type": "income",
+    "amount": 637,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0138",
+    "user_id": "user_003",
+    "date": "2026-04-12",
+    "type": "expense",
+    "amount": 150,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0139",
+    "user_id": "user_003",
+    "date": "2026-04-12",
+    "type": "expense",
+    "amount": 118,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0140",
+    "user_id": "user_003",
+    "date": "2026-04-12",
+    "type": "expense",
+    "amount": 727,
+    "category": "medical",
+    "description": "Medical/Pharmacy",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0141",
+    "user_id": "user_003",
+    "date": "2026-04-13",
+    "type": "income",
+    "amount": 637,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0142",
+    "user_id": "user_003",
+    "date": "2026-04-13",
+    "type": "expense",
+    "amount": 147,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0143",
+    "user_id": "user_003",
+    "date": "2026-04-13",
+    "type": "expense",
+    "amount": 121,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0144",
+    "user_id": "user_003",
+    "date": "2026-04-14",
+    "type": "income",
+    "amount": 661,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0145",
+    "user_id": "user_003",
+    "date": "2026-04-14",
+    "type": "expense",
+    "amount": 144,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0146",
+    "user_id": "user_003",
+    "date": "2026-04-14",
+    "type": "expense",
+    "amount": 125,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0147",
+    "user_id": "user_003",
+    "date": "2026-04-15",
+    "type": "income",
+    "amount": 917,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0148",
+    "user_id": "user_003",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 184,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0149",
+    "user_id": "user_003",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 112,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0150",
+    "user_id": "user_003",
+    "date": "2026-04-15",
+    "type": "expense",
+    "amount": 2000,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u3_0151",
+    "user_id": "user_003",
+    "date": "2026-04-16",
+    "type": "income",
+    "amount": 793,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0152",
+    "user_id": "user_003",
+    "date": "2026-04-16",
+    "type": "expense",
+    "amount": 187,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0153",
+    "user_id": "user_003",
+    "date": "2026-04-16",
+    "type": "expense",
+    "amount": 97,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0154",
+    "user_id": "user_003",
+    "date": "2026-04-17",
+    "type": "income",
+    "amount": 770,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0155",
+    "user_id": "user_003",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 174,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0156",
+    "user_id": "user_003",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 95,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0157",
+    "user_id": "user_003",
+    "date": "2026-04-17",
+    "type": "expense",
+    "amount": 825,
+    "category": "medical",
+    "description": "Medical/Pharmacy",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0158",
+    "user_id": "user_003",
+    "date": "2026-04-19",
+    "type": "income",
+    "amount": 920,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0159",
+    "user_id": "user_003",
+    "date": "2026-04-19",
+    "type": "expense",
+    "amount": 179,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0160",
+    "user_id": "user_003",
+    "date": "2026-04-19",
+    "type": "expense",
+    "amount": 128,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0161",
+    "user_id": "user_003",
+    "date": "2026-04-20",
+    "type": "income",
+    "amount": 832,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0162",
+    "user_id": "user_003",
+    "date": "2026-04-20",
+    "type": "expense",
+    "amount": 161,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0163",
+    "user_id": "user_003",
+    "date": "2026-04-20",
+    "type": "expense",
+    "amount": 93,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0164",
+    "user_id": "user_003",
+    "date": "2026-04-21",
+    "type": "income",
+    "amount": 840,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0165",
+    "user_id": "user_003",
+    "date": "2026-04-21",
+    "type": "expense",
+    "amount": 152,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0166",
+    "user_id": "user_003",
+    "date": "2026-04-21",
+    "type": "expense",
+    "amount": 109,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0167",
+    "user_id": "user_003",
+    "date": "2026-04-22",
+    "type": "expense",
+    "amount": 91,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0168",
+    "user_id": "user_003",
+    "date": "2026-04-23",
+    "type": "income",
+    "amount": 786,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0169",
+    "user_id": "user_003",
+    "date": "2026-04-23",
+    "type": "expense",
+    "amount": 154,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0170",
+    "user_id": "user_003",
+    "date": "2026-04-23",
+    "type": "expense",
+    "amount": 114,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0171",
+    "user_id": "user_003",
+    "date": "2026-04-24",
+    "type": "income",
+    "amount": 749,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0172",
+    "user_id": "user_003",
+    "date": "2026-04-24",
+    "type": "expense",
+    "amount": 176,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0173",
+    "user_id": "user_003",
+    "date": "2026-04-24",
+    "type": "expense",
+    "amount": 118,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0174",
+    "user_id": "user_003",
+    "date": "2026-04-25",
+    "type": "income",
+    "amount": 1008,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0175",
+    "user_id": "user_003",
+    "date": "2026-04-25",
+    "type": "expense",
+    "amount": 192,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0176",
+    "user_id": "user_003",
+    "date": "2026-04-25",
+    "type": "expense",
+    "amount": 100,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0177",
+    "user_id": "user_003",
+    "date": "2026-04-26",
+    "type": "income",
+    "amount": 605,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0178",
+    "user_id": "user_003",
+    "date": "2026-04-26",
+    "type": "expense",
+    "amount": 163,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0179",
+    "user_id": "user_003",
+    "date": "2026-04-26",
+    "type": "expense",
+    "amount": 106,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0180",
+    "user_id": "user_003",
+    "date": "2026-04-27",
+    "type": "income",
+    "amount": 543,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0181",
+    "user_id": "user_003",
+    "date": "2026-04-27",
+    "type": "expense",
+    "amount": 141,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0182",
+    "user_id": "user_003",
+    "date": "2026-04-27",
+    "type": "expense",
+    "amount": 109,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0183",
+    "user_id": "user_003",
+    "date": "2026-04-28",
+    "type": "income",
+    "amount": 587,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0184",
+    "user_id": "user_003",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 158,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0185",
+    "user_id": "user_003",
+    "date": "2026-04-28",
+    "type": "expense",
+    "amount": 125,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0186",
+    "user_id": "user_003",
+    "date": "2026-04-29",
+    "type": "expense",
+    "amount": 87,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0187",
+    "user_id": "user_003",
+    "date": "2026-04-30",
+    "type": "income",
+    "amount": 540,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0188",
+    "user_id": "user_003",
+    "date": "2026-04-30",
+    "type": "expense",
+    "amount": 150,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0189",
+    "user_id": "user_003",
+    "date": "2026-04-30",
+    "type": "expense",
+    "amount": 128,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0190",
+    "user_id": "user_003",
+    "date": "2026-05-01",
+    "type": "expense",
+    "amount": 13000,
+    "category": "rent",
+    "description": "Monthly Rent",
+    "source": "bank_transfer"
+  },
+  {
+    "id": "txn_u3_0191",
+    "user_id": "user_003",
+    "date": "2026-05-02",
+    "type": "income",
+    "amount": 717,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0192",
+    "user_id": "user_003",
+    "date": "2026-05-02",
+    "type": "expense",
+    "amount": 192,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0193",
+    "user_id": "user_003",
+    "date": "2026-05-02",
+    "type": "expense",
+    "amount": 107,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0194",
+    "user_id": "user_003",
+    "date": "2026-05-03",
+    "type": "expense",
+    "amount": 61,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0195",
+    "user_id": "user_003",
+    "date": "2026-05-04",
+    "type": "income",
+    "amount": 667,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0196",
+    "user_id": "user_003",
+    "date": "2026-05-04",
+    "type": "expense",
+    "amount": 166,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0197",
+    "user_id": "user_003",
+    "date": "2026-05-04",
+    "type": "expense",
+    "amount": 122,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0198",
+    "user_id": "user_003",
+    "date": "2026-05-06",
+    "type": "income",
+    "amount": 728,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0199",
+    "user_id": "user_003",
+    "date": "2026-05-06",
+    "type": "expense",
+    "amount": 153,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0200",
+    "user_id": "user_003",
+    "date": "2026-05-06",
+    "type": "expense",
+    "amount": 105,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0201",
+    "user_id": "user_003",
+    "date": "2026-05-07",
+    "type": "income",
+    "amount": 603,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0202",
+    "user_id": "user_003",
+    "date": "2026-05-07",
+    "type": "expense",
+    "amount": 167,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0203",
+    "user_id": "user_003",
+    "date": "2026-05-07",
+    "type": "expense",
+    "amount": 90,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0204",
+    "user_id": "user_003",
+    "date": "2026-05-08",
+    "type": "income",
+    "amount": 714,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0205",
+    "user_id": "user_003",
+    "date": "2026-05-08",
+    "type": "expense",
+    "amount": 148,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0206",
+    "user_id": "user_003",
+    "date": "2026-05-08",
+    "type": "expense",
+    "amount": 101,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0207",
+    "user_id": "user_003",
+    "date": "2026-05-09",
+    "type": "expense",
+    "amount": 76,
+    "category": "food",
+    "description": "Groceries",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0208",
+    "user_id": "user_003",
+    "date": "2026-05-10",
+    "type": "income",
+    "amount": 911,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0209",
+    "user_id": "user_003",
+    "date": "2026-05-10",
+    "type": "expense",
+    "amount": 149,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0210",
+    "user_id": "user_003",
+    "date": "2026-05-10",
+    "type": "expense",
+    "amount": 90,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0211",
+    "user_id": "user_003",
+    "date": "2026-05-11",
+    "type": "income",
+    "amount": 538,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0212",
+    "user_id": "user_003",
+    "date": "2026-05-11",
+    "type": "expense",
+    "amount": 168,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0213",
+    "user_id": "user_003",
+    "date": "2026-05-11",
+    "type": "expense",
+    "amount": 94,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0214",
+    "user_id": "user_003",
+    "date": "2026-05-12",
+    "type": "income",
+    "amount": 639,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Ola"
+  },
+  {
+    "id": "txn_u3_0215",
+    "user_id": "user_003",
+    "date": "2026-05-12",
+    "type": "expense",
+    "amount": 167,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0216",
+    "user_id": "user_003",
+    "date": "2026-05-12",
+    "type": "expense",
+    "amount": 98,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0217",
+    "user_id": "user_003",
+    "date": "2026-05-14",
+    "type": "income",
+    "amount": 601,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0218",
+    "user_id": "user_003",
+    "date": "2026-05-14",
+    "type": "expense",
+    "amount": 186,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0219",
+    "user_id": "user_003",
+    "date": "2026-05-14",
+    "type": "expense",
+    "amount": 126,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0220",
+    "user_id": "user_003",
+    "date": "2026-05-15",
+    "type": "income",
+    "amount": 1066,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0221",
+    "user_id": "user_003",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 167,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0222",
+    "user_id": "user_003",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 129,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  },
+  {
+    "id": "txn_u3_0223",
+    "user_id": "user_003",
+    "date": "2026-05-15",
+    "type": "expense",
+    "amount": 2000,
+    "category": "utilities",
+    "description": "Electricity & Water",
+    "source": "UPI"
+  },
+  {
+    "id": "txn_u3_0224",
+    "user_id": "user_003",
+    "date": "2026-05-16",
+    "type": "income",
+    "amount": 788,
+    "category": "ride_earnings",
+    "description": "Daily Rides",
+    "source": "Uber"
+  },
+  {
+    "id": "txn_u3_0225",
+    "user_id": "user_003",
+    "date": "2026-05-16",
+    "type": "expense",
+    "amount": 170,
+    "category": "fuel",
+    "description": "Petrol",
+    "source": "IOCL"
+  },
+  {
+    "id": "txn_u3_0226",
+    "user_id": "user_003",
+    "date": "2026-05-16",
+    "type": "expense",
+    "amount": 105,
+    "category": "food",
+    "description": "Meals",
+    "source": "cash"
+  }
+]

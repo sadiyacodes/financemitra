@@ -1,0 +1,20 @@
+# FinanceMitra — Promptfoo Provider Definitions
+# Reference this file from suites with: file://../providers.yaml
+
+- id: ollama:gemma4:e4b
+  label: "Ollama (gemma4 — local)"
+  config:
+    url: http://127.0.0.1:11434/api/chat
+    temperature: 0.3
+
+- id: anthropic:claude-sonnet-4-5
+  label: "Claude Sonnet 4.5 (Anthropic)"
+  config:
+    apiKey: "{{env.ANTHROPIC_API_KEY}}"
+    temperature: 0.3
+
+- id: google:gemini-2.5-flash-lite
+  label: "Gemini 2.5 Flash Lite (Google)"
+  config:
+    apiKey: "{{env.GOOGLE_API_KEY}}"
+    temperature: 0.3

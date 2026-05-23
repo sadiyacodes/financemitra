@@ -1,0 +1,19 @@
+{
+  "_comment": "Mock result for Ravi Kumar (user_001). Fixed expenses ₹17,000/month. Monthly spend ≈ ₹20,900.",
+  "totalLast30Days": 20900,
+  "totalLast90Days": 62400,
+  "byCategory": [
+    { "category": "fuel",          "total": 17680, "percentage": 28.3 },
+    { "category": "food",          "total": 13500, "percentage": 21.6 },
+    { "category": "rent",          "total": 12000, "percentage": 19.2 },
+    { "category": "phone",         "total": 799,   "percentage": 1.3  },
+    { "category": "maintenance",   "total": 6500,  "percentage": 10.4 },
+    { "category": "entertainment", "total": 4200,  "percentage": 6.7  },
+    { "category": "other",         "total": 7721,  "percentage": 12.4 }
+  ],
+  "fixedExpenses": 17000,
+  "variableExpenses": 3900,
+  "trend": "stable",
+  "largestCategory": "fuel",
+  "unusualSpikes": []
+}

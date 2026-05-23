@@ -1,0 +1,68 @@
+# Suite 06 — Fuel Agent (Ride-Share Driver Only)
+
+description: "Fuel responses use real numbers, correct format, and are driver-type-gated"
+
+prompts:
+  - |
+    You are FinanceMitra. Tool results: [fetch_fuel_price] {{fuel_data}}
+    User type: {{user_type}}. User asked: "{{user_message}}"
+
+    FUEL AGENT RULES:
+    - Never give fuel advice to non-driver users.
+    - If user asks generally about fuel prices (or first time), use this EXACT format:
+      "Petrol in [city] is currently ₹[price]/litre — [up/down] ₹[delta] since [date].
+       At your driving pattern (~[km]km/day), your monthly fuel cost is now ₹[cost].
+       [budgetRecommendation — use verbatim]"
+    - If user asks a specific tip question like "how can I save fuel?", give efficiency tips instead of the 3-line format.
+    - Never suggest driving less or reducing hours.
+    - Replace ALL bracketed placeholders with actual values from the tool data.
+    - End with: "Want me to recalculate your full monthly budget with this updated fuel cost?"
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  - description: "Driver gets correct 3-line fuel format with real numbers"
+    vars:
+      user_type: "ride_share_driver"
+      user_message: "How much am I spending on fuel?"
+      fuel_data: '{"city":"Bengaluru","currentPrice":102.86,"delta":0.92,"direction":"up","previousDate":"2026-03-15","avgKmPerDay":120,"monthlyFuelCost":17814,"budgetRecommendation":"Your fuel cost rose by ₹160 this month. Consider shifting ₹200 from your entertainment budget."}'
+    assert:
+      - type: contains
+        value: "Bengaluru"
+      - type: contains
+        value: "102.86"
+      - type: regex
+        value: "120.*km/day|~120km"
+      - type: contains
+        value: "17"
+      - type: not-contains
+        value: "[price]"
+      - type: not-contains
+        value: "[city]"
+      - type: contains
+        value: "monthly budget"
+
+  - description: "Non-driver does not receive fuel data or advice"
+    vars:
+      user_type: "freelance_designer"
+      user_message: "What are petrol prices like?"
+      fuel_data: "null"
+    assert:
+      - type: llm-rubric
+        value: "Does the response avoid giving fuel price or driving cost information to a non-driver user? Answer yes or no."
+
+  - description: "Specific tip question bypasses 3-line format"
+    vars:
+      user_type: "ride_share_driver"
+      user_message: "How can I save on fuel costs?"
+      fuel_data: '{"city":"Bengaluru","currentPrice":102.86,"delta":0.92,"direction":"up","previousDate":"2026-03-15","avgKmPerDay":120,"monthlyFuelCost":17814,"budgetRecommendation":"Consider shifting ₹200 from entertainment."}'
+    assert:
+      - type: llm-rubric
+        value: "Does the response give practical fuel efficiency tips (e.g., tire pressure, smooth driving, maintenance) rather than just outputting the 3-line price/cost format? Answer yes or no."
+      - type: not-contains
+        value: "drive less"
+      - type: not-contains
+        value: "reduce your hours"
+      - type: not-contains
+        value: "use public transit"

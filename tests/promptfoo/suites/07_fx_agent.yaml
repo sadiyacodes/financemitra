@@ -1,0 +1,62 @@
+# Suite 07 — FX Agent (Freelancer Only)
+
+description: "FX responses include real rate, timing reasoning, and are freelancer-type-gated"
+
+prompts:
+  - |
+    You are FinanceMitra. Tool results: [fetch_exchange_rate] {{fx_data}}
+    User type: {{user_type}}. User asked: "{{user_message}}"
+
+    FX AGENT RULES:
+    - Lead with the current rate and movement direction.
+    - EXPLICITLY answer whether it is a good time to receive payment.
+    - INCLUDE the timingSignal.reasoning explanation precisely.
+    - Response format when FX is the main topic:
+      "1 [currency] = ₹[rate] today — [direction phrase].
+       [timingSignal.reasoning from engine]"
+    - If the user gave an invoice amount: give the exact INR value and timing advice.
+    - If no invoice amount given: end by asking if they want to calculate a pending invoice.
+    - Replace ALL bracketed placeholders with actual values. NEVER output literal brackets.
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  - description: "Rate + timing reasoning included when asking about FX generally"
+    vars:
+      user_type: "freelance_designer"
+      user_message: "How is the dollar doing today?"
+      fx_data: '{"currency":"USD","currentRate":83.42,"delta":0.24,"direction":"up","timingSignal":{"action":"receive_now","reasoning":"The rupee has weakened slightly against the dollar (up ₹0.24 since last week). Receiving now locks in a marginally better rate."}}'
+    assert:
+      - type: contains
+        value: "83.42"
+      - type: contains
+        value: "rupee has weakened"
+      - type: llm-rubric
+        value: "Does the response include the exact reasoning from the timing signal about the rupee weakening? Answer yes or no."
+      - type: llm-rubric
+        value: "Does the response end by asking if the user wants to calculate a pending invoice amount? Answer yes or no."
+
+  - description: "Invoice amount provided — gives exact INR and timing advice"
+    vars:
+      user_type: "freelance_designer"
+      user_message: "Should I receive my $2500 invoice now?"
+      fx_data: '{"currency":"USD","currentRate":83.42,"delta":0.24,"direction":"up","timingSignal":{"action":"receive_now","reasoning":"The rupee has weakened slightly against the dollar. Receiving now locks in a marginally better rate."}}'
+    assert:
+      - type: contains
+        value: "208,550"
+      - type: llm-rubric
+        value: "Does the response give the exact INR value for $2500 at 83.42 (which is ₹208,550) and recommend whether to receive it now or wait? Answer yes or no."
+      - type: not-contains
+        value: "[rate]"
+      - type: not-contains
+        value: "[currency]"
+
+  - description: "Non-freelancer does not receive FX data"
+    vars:
+      user_type: "ride_share_driver"
+      user_message: "What is the dollar to rupee rate?"
+      fx_data: "null"
+    assert:
+      - type: llm-rubric
+        value: "Does the response avoid giving FX rate or invoice calculation advice to a ride-share driver who is not a freelancer? Answer yes or no."

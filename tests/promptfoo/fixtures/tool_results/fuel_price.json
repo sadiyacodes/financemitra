@@ -1,0 +1,16 @@
+{
+  "_comment": "Mock result from fetch_fuel_price for Ravi Kumar in Bengaluru.",
+  "city": "Bengaluru",
+  "currentPrice": 102.86,
+  "previousPrice": 101.94,
+  "delta": 0.92,
+  "direction": "up",
+  "lastUpdated": "2026-04-01",
+  "previousDate": "2026-03-15",
+  "avgKmPerDay": 120,
+  "litresPerDay": 6.67,
+  "workingDaysPerMonth": 26,
+  "monthlyFuelCost": 17814,
+  "monthlyDelta": 160,
+  "budgetRecommendation": "Your fuel cost rose by ₹160 this month. Consider shifting ₹200 from your entertainment budget to absorb this without touching your savings target."
+}

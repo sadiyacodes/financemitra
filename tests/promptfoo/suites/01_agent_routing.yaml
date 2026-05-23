@@ -1,0 +1,121 @@
+# Suite 01 — Agent Tool Routing
+# Tests that the ReAct loop's FIRST reasoning step selects the correct tool.
+# We inject the exact prompt that react-loop.ts sends to callLLM() at iteration 1.
+
+description: "Agent correctly routes user messages to the right tool on first reasoning step"
+
+prompts:
+  - |
+    History:
+    (none)
+
+    No tool results yet.
+
+    User message: "{{user_message}}"
+
+    You must respond ONLY in valid JSON. No markdown, no extra text.
+    Choose ONE of these two formats:
+
+    Format 1 (When you NEED to fetch data):
+    {
+      "action": "tool_call",
+      "tool": "<exactly_tool_name>",
+      "toolInput": { "<param>": "<value>" },
+      "thought": "<why you need this tool>"
+    }
+
+    Format 2 (Only when ALL data is collected and ready):
+    {
+      "action": "final_answer",
+      "thought": "<final summary context>",
+      "answer": "<your immediate output>"
+    }
+
+providers:
+  - file://../providers.yaml
+
+defaultTest:
+  options:
+    # System prompt mirrors AGENT_SYSTEM_PROMPT with Ravi's context (ride_share_driver)
+    systemPrompt: |
+      You are FinanceMitra's reasoning engine. Your job is to help gig workers and irregular-income
+      earners in India manage their finances.
+
+      You have access to these tools:
+      - income_analyzer: Analyzes income patterns and calculates health score
+      - expense_tracker: Tracks and categorizes all user expenses
+      - savings_planner: Creates a personalised savings plan
+      - income_forecaster: Forecasts next month income based on patterns
+      - what_if_simulator: Simulates the financial impact of a change
+      - compare_scenarios: Compares two financial decision paths
+      - fetch_fuel_price: Gets real-time petrol prices (ONLY for ride_share_driver)
+      - fetch_exchange_rate: Gets real-time FX rates (ONLY for freelance users)
+
+      Current user: Ravi Kumar (ride share driver) in Bengaluru
+      Their goal: Save 50000 for "Emergency fund" — currently at 12000
+
+      RULES:
+      - Always call income_analyzer before making any recommendation
+      - Never give a financial recommendation without data from at least one tool
+      - If a user asks about loan affordability, you MUST run income_analyzer AND expense_tracker first
+
+      fetch_fuel_price → ONLY for ride_share_driver. Call when user asks anything about fuel, petrol, driving costs.
+      fetch_exchange_rate → ONLY for freelance users. Call when user asks about exchange rates, invoices, foreign payments.
+
+tests:
+  - vars:
+      user_message: "How much am I spending on fuel this month?"
+    assert:
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          return obj.action === 'tool_call' && obj.tool === 'fetch_fuel_price';
+        threshold: 1
+
+  - vars:
+      user_message: "Can you check my income patterns?"
+    assert:
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          return obj.action === 'tool_call' && obj.tool === 'income_analyzer';
+        threshold: 1
+
+  - vars:
+      user_message: "What if I save ₹3000 more every month?"
+    assert:
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          return obj.action === 'tool_call' && obj.tool === 'what_if_simulator';
+        threshold: 1
+
+  - vars:
+      user_message: "Should I buy a bike outright or take an EMI loan?"
+    assert:
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          return obj.action === 'tool_call' && obj.tool === 'compare_scenarios';
+        threshold: 1
+
+  - vars:
+      user_message: "Can I afford a ₹5000 EMI loan?"
+    assert:
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          return obj.action === 'tool_call' && obj.tool === 'income_analyzer';
+        threshold: 1
+
+  - vars:
+      user_message: "What is the exchange rate today?"
+    assert:
+      # A ride_share_driver should NOT call fetch_exchange_rate — wrong user type
+      - type: javascript
+        value: |
+          const obj = JSON.parse(output);
+          return obj.tool !== 'fetch_exchange_rate';
+        threshold: 1
+      - type: llm-rubric
+        value: "The response does not call the fetch_exchange_rate tool for a ride-share driver user"

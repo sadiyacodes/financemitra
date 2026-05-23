@@ -1,0 +1,58 @@
+[
+  {
+    "id": "user_001",
+    "name": "Ravi Kumar",
+    "type": "ride_share_driver",
+    "city": "Bengaluru",
+    "currency": "INR",
+    "monthly_fixed_expenses": 17000,
+    "savings_goal": {
+      "label": "Emergency fund",
+      "target": 50000,
+      "current": 12000
+    },
+    "income_pattern": "weekend_heavy"
+  },
+  {
+    "id": "user_002",
+    "name": "Priya Mehta",
+    "type": "freelance_designer",
+    "city": "Mumbai",
+    "currency": "INR",
+    "monthly_fixed_expenses": 35000,
+    "savings_goal": {
+      "label": "New laptop",
+      "target": 80000,
+      "current": 31000
+    },
+    "income_pattern": "lumpy_monthly"
+  },
+  {
+    "id": "user_003",
+    "name": "Selvam Arasan",
+    "type": "street_food_vendor",
+    "city": "Chennai",
+    "currency": "INR",
+    "monthly_fixed_expenses": 7000,
+    "savings_goal": {
+      "label": "Expand stall",
+      "target": 30000,
+      "current": 4500
+    },
+    "income_pattern": "daily_cash"
+  },
+  {
+    "id": "user_004",
+    "name": "Meena Joshi",
+    "type": "part_time_multi_job",
+    "city": "Pune",
+    "currency": "INR",
+    "monthly_fixed_expenses": 14000,
+    "savings_goal": {
+      "label": "Wedding fund",
+      "target": 200000,
+      "current": 55000
+    },
+    "income_pattern": "biweekly_mixed"
+  }
+]

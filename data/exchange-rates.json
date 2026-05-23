@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "last_updated": "2026-04-19",
+    "update_frequency": "daily",
+    "source": "Reserve Bank of India reference rate",
+    "note": "Update rate values manually before each demo by checking Google for current rates"
+  },
+  "favorable_move_threshold": 0.5,
+  "rates": {
+    "USD": {
+      "currency_name": "US Dollar",
+      "symbol": "$",
+      "rate": 83.42,
+      "history": [
+        { "date": "2026-04-19", "rate": 83.42 },
+        { "date": "2026-04-12", "rate": 83.18 },
+        { "date": "2026-04-05", "rate": 83.55 },
+        { "date": "2026-03-29", "rate": 83.71 },
+        { "date": "2026-03-22", "rate": 83.90 },
+        { "date": "2026-03-15", "rate": 83.45 }
+      ]
+    },
+    "EUR": {
+      "currency_name": "Euro",
+      "symbol": "€",
+      "rate": 90.17,
+      "history": [
+        { "date": "2026-04-19", "rate": 90.17 },
+        { "date": "2026-04-12", "rate": 89.80 },
+        { "date": "2026-04-05", "rate": 90.44 },
+        { "date": "2026-03-29", "rate": 90.62 },
+        { "date": "2026-03-22", "rate": 90.95 },
+        { "date": "2026-03-15", "rate": 90.30 }
+      ]
+    },
+    "GBP": {
+      "currency_name": "British Pound",
+      "symbol": "£",
+      "rate": 105.63,
+      "history": [
+        { "date": "2026-04-19", "rate": 105.63 },
+        { "date": "2026-04-12", "rate": 105.10 },
+        { "date": "2026-04-05", "rate": 106.02 },
+        { "date": "2026-03-29", "rate": 106.40 },
+        { "date": "2026-03-22", "rate": 106.80 },
+        { "date": "2026-03-15", "rate": 105.90 }
+      ]
+    },
+    "AED": {
+      "currency_name": "UAE Dirham",
+      "symbol": "د.إ",
+      "rate": 22.71,
+      "history": [
+        { "date": "2026-04-19", "rate": 22.71 },
+        { "date": "2026-04-12", "rate": 22.65 },
+        { "date": "2026-04-05", "rate": 22.78 },
+        { "date": "2026-03-29", "rate": 22.82 },
+        { "date": "2026-03-22", "rate": 22.90 },
+        { "date": "2026-03-15", "rate": 22.74 }
+      ]
+    },
+    "SGD": {
+      "currency_name": "Singapore Dollar",
+      "symbol": "S$",
+      "rate": 61.85,
+      "history": [
+        { "date": "2026-04-19", "rate": 61.85 },
+        { "date": "2026-04-12", "rate": 61.50 },
+        { "date": "2026-04-05", "rate": 62.10 },
+        { "date": "2026-03-29", "rate": 62.30 },
+        { "date": "2026-03-22", "rate": 62.55 },
+        { "date": "2026-03-15", "rate": 61.95 }
+      ]
+    }
+  }
+}

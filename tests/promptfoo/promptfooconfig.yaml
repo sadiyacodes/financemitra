@@ -1,0 +1,165 @@
+# FinanceMitra — Promptfoo Root Configuration (Smoke Tests)
+#
+# This is a SMOKE-TEST config: 6 routing assertions.
+# For full per-feature suites, run each suite file individually:
+#
+#   npx promptfoo eval --config tests/promptfoo/suites/01_agent_routing.yaml --env-file .env.local
+#   ... etc.
+#
+# Quick commands:
+#   npm run test:prompts          → smoke test (all configured providers)
+#   npm run test:prompts:claude   → Claude Sonnet 4.5 only
+#   npm run test:prompts:gemini   → Gemini 2.5 Flash Lite only
+#   npm run test:prompts:ollama   → Ollama (gemma4) only
+#   npm run test:prompts:view     → open interactive results UI
+
+description: "FinanceMitra smoke-test — agent routing sanity checks"
+
+providers:
+  - id: ollama:gemma4:e4b
+    label: "Ollama (gemma4 — local)"
+    config:
+      url: http://127.0.0.1:11434/api/chat
+      temperature: 0.3
+
+  - id: anthropic:claude-sonnet-4-5
+    label: "Claude Sonnet 4.5 (Anthropic)"
+    config:
+      apiKey: "{{env.ANTHROPIC_API_KEY}}"
+      temperature: 0.3
+
+  - id: google:gemini-2.5-flash-lite
+    label: "Gemini 2.5 Flash Lite"
+    config:
+      apiKey: "{{env.GOOGLE_API_KEY}}"
+      temperature: 0.3
+
+# Faithfully mirrors AGENT_SYSTEM_PROMPT from react-loop.ts including SPECIALIZED FEATURE ROUTING.
+# The simplified test prompt that omitted specialized routing caused all tests to fail because
+# models correctly followed "always call income_analyzer first" without exception clauses.
+prompts:
+  - label: "ReAct step 1 — tool routing"
+    raw: |
+      SYSTEM: You are FinanceMitra's reasoning engine helping gig workers manage finances in India.
+      Current user: Ravi Kumar (ride_share_driver) in Bengaluru.
+      Goal: Save ₹50,000 for "Emergency fund" — currently at ₹12,000.
+
+      Tools available:
+      - income_analyzer: Analyze income patterns and health score
+      - expense_tracker: Track and categorize expenses
+      - savings_planner: Create personalized savings plan
+      - income_forecaster: Forecast next month income
+      - what_if_simulator: Simulate financial impact of a change
+      - compare_scenarios: Compare two financial decision paths
+      - fetch_fuel_price: Real-time petrol prices — ONLY for ride_share_driver
+      - fetch_exchange_rate: Real-time FX rates — ONLY for freelance users
+
+      RULES:
+      - Always call income_analyzer before making any financial recommendation
+      - Never give a recommendation without data from at least one tool
+      - If user asks about loan affordability, MUST run income_analyzer AND expense_tracker first
+      - Never suggest investment products
+      - Respond ONLY in valid JSON — no markdown, no code blocks, no extra text
+
+      SPECIALIZED FEATURE ROUTING — evaluate this BEFORE choosing any tool:
+      WHAT-IF SIMULATOR   → trigger on: "what if", "if I save", "if I cut", "what would happen"
+                            Call what_if_simulator directly — no income_analyzer needed first
+      SCENARIO COMPARISON → trigger on: "should I buy or save", "EMI or upfront", "compare", "vs",
+                            "which is better", "buy outright or", "loan or", "outright or EMI".
+                            PRIORITY: Call compare_scenarios directly — NOT income_analyzer first.
+                            Even if you think you need income data, for comparison decisions
+                            call compare_scenarios first. It will use the available data.
+      fetch_fuel_price    → ONLY for ride_share_driver. Call when user asks about fuel, petrol,
+                            fuel prices, driving costs, or how much fuel costs this month.
+                            PRIORITY: For ride_share_driver, fuel cost questions → fetch_fuel_price.
+                            Do NOT use expense_tracker for fuel questions on driver users.
+      fetch_exchange_rate → ONLY for freelance users (NOT ride_share_driver). Call for exchange rates, invoices.
+                            A ride_share_driver asking about FX should get income_analyzer instead.
+
+      USER: History: (none)
+      No tool results yet.
+      User message: "{{user_message}}"
+      Respond ONLY in valid JSON. NO markdown code fences. NO backticks. Raw JSON only.
+      Format 1 (need data): {"action":"tool_call","tool":"<name>","toolInput":{},"thought":"<why>"}
+      Format 2 (ready to answer): {"action":"final_answer","thought":"<context>","answer":"<response>"}
+
+defaultTest:
+  options:
+    timeout: 60000
+
+# IMPORTANT: All JavaScript assertions strip markdown code fences before JSON.parse.
+# Both Ollama (gemma4) and Gemini sometimes wrap responses in ```json ... ``` despite being told not to.
+# The strip() helper handles this without breaking assertions that already return raw JSON.
+
+tests:
+  - description: "[smoke] Driver fuel question → fetch_fuel_price (not income_analyzer)"
+    vars:
+      user_message: "How much am I spending on fuel this month?"
+    assert:
+      - type: javascript
+        value: |
+          try {
+            const clean = output.replace(/```[\w]*\n?/g, '').replace(/```\n?/g, '').trim();
+            const obj = JSON.parse(clean);
+            return obj.action === 'tool_call' && obj.tool === 'fetch_fuel_price';
+          } catch(e) { return false; }
+
+  - description: "[smoke] Income question → income_analyzer"
+    vars:
+      user_message: "Can you analyse my income patterns?"
+    assert:
+      - type: javascript
+        value: |
+          try {
+            const clean = output.replace(/```[\w]*\n?/g, '').replace(/```\n?/g, '').trim();
+            const obj = JSON.parse(clean);
+            return obj.action === 'tool_call' && obj.tool === 'income_analyzer';
+          } catch(e) { return false; }
+
+  - description: "[smoke] What-if question → what_if_simulator (not income_analyzer)"
+    vars:
+      user_message: "What if I save ₹3000 more every month?"
+    assert:
+      - type: javascript
+        value: |
+          try {
+            const clean = output.replace(/```[\w]*\n?/g, '').replace(/```\n?/g, '').trim();
+            const obj = JSON.parse(clean);
+            return obj.action === 'tool_call' && obj.tool === 'what_if_simulator';
+          } catch(e) { return false; }
+
+  - description: "[smoke] Driver asking USD rate → NOT fetch_exchange_rate"
+    vars:
+      user_message: "What is the USD to INR rate today?"
+    assert:
+      - type: javascript
+        value: |
+          try {
+            const clean = output.replace(/```[\w]*\n?/g, '').replace(/```\n?/g, '').trim();
+            const obj = JSON.parse(clean);
+            return obj.tool !== 'fetch_exchange_rate';
+          } catch(e) { return false; }
+
+  - description: "[smoke] EMI affordability → income_analyzer (first step)"
+    vars:
+      user_message: "Can I afford a ₹5000 monthly EMI loan?"
+    assert:
+      - type: javascript
+        value: |
+          try {
+            const clean = output.replace(/```[\w]*\n?/g, '').replace(/```\n?/g, '').trim();
+            const obj = JSON.parse(clean);
+            return obj.action === 'tool_call' && obj.tool === 'income_analyzer';
+          } catch(e) { return false; }
+
+  - description: "[smoke] Buy vs EMI decision → compare_scenarios (not income_analyzer)"
+    vars:
+      user_message: "Should I buy a bike outright or take an EMI?"
+    assert:
+      - type: javascript
+        value: |
+          try {
+            const clean = output.replace(/```[\w]*\n?/g, '').replace(/```\n?/g, '').trim();
+            const obj = JSON.parse(clean);
+            return obj.action === 'tool_call' && obj.tool === 'compare_scenarios';
+          } catch(e) { return false; }

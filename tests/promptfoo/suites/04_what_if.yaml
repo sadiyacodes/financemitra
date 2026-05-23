@@ -1,0 +1,107 @@
+# Suite 04 — What-If Simulator Output Format
+# Validates that WHAT_IF_PROMPT strict 4-line table format is followed exactly.
+# Also checks the "isRealistic = false" fallback path.
+
+description: "What-if simulation responses follow the strict 4-line table format"
+
+prompts:
+  - |
+    You are FinanceMitra, a warm and practical financial wellness advisor for gig workers and
+    irregular-income earners in India.
+
+    Tool results summary:
+    [what_if_simulator] Result:
+    {{what_if_result}}
+
+    The user asked: "{{user_message}}"
+
+    WHAT-IF FORMAT — use this EXACT format when presenting a what-if simulation result:
+
+    "If you [restate what the user said in plain words], here is what changes:
+
+      Savings rate     : [current]% → [new]%
+      Monthly surplus  : ₹[current] → ₹[new]
+      Time to [goal]   : [current] months → [new] months
+      Health score     : [current] → [new]
+
+    [One sentence verdict — is this move worth it based on their numbers? Be direct.]"
+
+    If isRealistic is false, lead with:
+    "That would exceed your current surplus of ₹[X] — here's what a realistic version looks like:"
+    Then show the simulation at 80% of their surplus instead.
+
+    End with the follow-up offer ONLY if monthsToGoalChange is negative (they'd reach goal faster):
+    "Want me to find the exact weekly saving amount to hit your goal by a specific date?"
+
+    CRITICAL: Replace ALL bracketed labels with actual numbers. NEVER output literal "[amount]" or "[current]" etc.
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  # Test 1: Standard realistic scenario — correct 4-line table
+  - description: "Realistic what-if result renders the exact 4-line table"
+    vars:
+      user_message: "What if I save ₹3000 more every month?"
+      what_if_result: |
+        {
+          "baseline": { "monthlySurplus": 6500, "savingsRate": 14, "monthsToGoal": 18, "healthScore": 62 },
+          "simulated": { "monthlySurplus": 9500, "savingsRate": 25, "monthsToGoal": 12, "healthScore": 71 },
+          "delta": { "surplusChange": 3000, "savingsRateChange": 11, "monthsToGoalChange": -6, "healthScoreChange": 9 },
+          "isRealistic": true
+        }
+    assert:
+      - type: regex
+        value: "Savings rate\\s*:\\s*14%\\s*→\\s*25%"
+      - type: regex
+        value: "Monthly surplus\\s*:\\s*₹6,?500\\s*→\\s*₹9,?500"
+      - type: regex
+        value: "Time to.*:\\s*18 months\\s*→\\s*12 months"
+      - type: regex
+        value: "Health score\\s*:\\s*62\\s*→\\s*71"
+      - type: not-contains
+        value: "[current]"
+      - type: not-contains
+        value: "[new]"
+      - type: not-contains
+        value: "[goal]"
+      - type: not-contains
+        value: "[amount]"
+      # Should offer the weekly savings question since monthsToGoalChange is negative
+      - type: contains
+        value: "weekly saving"
+
+  # Test 2: Unrealistic scenario — must lead with surplus warning
+  - description: "Unrealistic what-if leads with surplus-exceeded message"
+    vars:
+      user_message: "What if I save ₹7000 more every month?"
+      what_if_result: |
+        {
+          "baseline": { "monthlySurplus": 6500, "savingsRate": 14, "monthsToGoal": 18, "healthScore": 62 },
+          "simulated": { "monthlySurplus": 6500, "savingsRate": 40, "monthsToGoal": 9, "healthScore": 68 },
+          "delta": { "surplusChange": 0, "savingsRateChange": 26, "monthsToGoalChange": -9, "healthScoreChange": 6 },
+          "isRealistic": false,
+          "unrealisticReason": "That amount exceeds your current surplus of ₹6500"
+        }
+    assert:
+      - type: llm-rubric
+        value: "Does the response lead by telling the user their surplus would be exceeded (mentioning ₹6500 or similar), rather than showing the unrealistic numbers directly? Answer yes or no."
+      - type: not-contains
+        value: "[amount]"
+
+  # Test 3: No literal placeholders in any scenario
+  - description: "No literal bracketed placeholders appear in the output"
+    vars:
+      user_message: "What if I cut my food expenses by ₹2000?"
+      what_if_result: |
+        {
+          "baseline": { "monthlySurplus": 6500, "savingsRate": 14, "monthsToGoal": 18, "healthScore": 62 },
+          "simulated": { "monthlySurplus": 8500, "savingsRate": 21, "monthsToGoal": 14, "healthScore": 67 },
+          "delta": { "surplusChange": 2000, "savingsRateChange": 7, "monthsToGoalChange": -4, "healthScoreChange": 5 },
+          "isRealistic": true
+        }
+    assert:
+      - type: javascript
+        value: |
+          const placeholders = output.match(/\[[\w\s]+\]/g) || [];
+          return placeholders.length === 0;

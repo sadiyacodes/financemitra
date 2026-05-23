@@ -1,0 +1,30 @@
+{
+  "_comment": "Mock result for Ravi Kumar (user_001 - ride_share_driver, Bengaluru). averageMonthly ≈ ₹27,400",
+  "averageMonthly": 27400,
+  "averageWeekly": 6350,
+  "highestMonth": { "month": "2026-03", "amount": 31200 },
+  "lowestMonth":  { "month": "2026-01", "amount": 22800 },
+  "volatilityScore": 18,
+  "bestDayOfWeek": "Saturday",
+  "worstDayOfWeek": "Tuesday",
+  "incomeByWeek": [
+    { "week": "2026-W14", "total": 7200 },
+    { "week": "2026-W15", "total": 5800 },
+    { "week": "2026-W16", "total": 6900 },
+    { "week": "2026-W17", "total": 6500 }
+  ],
+  "incomeByMonth": [
+    { "month": "2026-01", "total": 22800 },
+    { "month": "2026-02", "total": 26900 },
+    { "month": "2026-03", "total": 31200 },
+    { "month": "2026-04", "total": 28700 }
+  ],
+  "totalLast30Days": 26400,
+  "totalLast90Days": 86800,
+  "healthScore": {
+    "score": 62,
+    "label": "Moderate",
+    "savingsRate": 14,
+    "expenseRatio": 62
+  }
+}

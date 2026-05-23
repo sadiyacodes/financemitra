@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "last_updated": "2026-04-19",
+    "update_frequency": "1st and 15th of every month",
+    "source": "Indian Oil Corporation published rates",
+    "note": "Update petrol and diesel values manually before each demo by checking Google for current city prices"
+  },
+  "driver_assumptions": {
+    "avg_km_per_day": 120,
+    "avg_km_per_litre": 18,
+    "litres_per_day": 6.67,
+    "working_days_per_month": 26
+  },
+  "prices": {
+    "Bengaluru": {
+      "petrol": 102.86,
+      "diesel": 88.94,
+      "history": [
+        { "date": "2026-04-01", "petrol": 102.86, "diesel": 88.94 },
+        { "date": "2026-03-15", "petrol": 101.94, "diesel": 88.12 },
+        { "date": "2026-03-01", "petrol": 101.94, "diesel": 88.12 },
+        { "date": "2026-02-15", "petrol": 101.50, "diesel": 87.80 },
+        { "date": "2026-02-01", "petrol": 100.88, "diesel": 87.20 },
+        { "date": "2026-01-15", "petrol": 100.88, "diesel": 87.20 }
+      ]
+    },
+    "Mumbai": {
+      "petrol": 104.21,
+      "diesel": 90.12,
+      "history": [
+        { "date": "2026-04-01", "petrol": 104.21, "diesel": 90.12 },
+        { "date": "2026-03-15", "petrol": 103.44, "diesel": 89.50 },
+        { "date": "2026-03-01", "petrol": 103.44, "diesel": 89.50 },
+        { "date": "2026-02-15", "petrol": 102.90, "diesel": 89.00 },
+        { "date": "2026-02-01", "petrol": 102.32, "diesel": 88.44 },
+        { "date": "2026-01-15", "petrol": 102.32, "diesel": 88.44 }
+      ]
+    },
+    "Chennai": {
+      "petrol": 100.75,
+      "diesel": 87.32,
+      "history": [
+        { "date": "2026-04-01", "petrol": 100.75, "diesel": 87.32 },
+        { "date": "2026-03-15", "petrol": 100.10, "diesel": 86.80 },
+        { "date": "2026-03-01", "petrol": 100.10, "diesel": 86.80 },
+        { "date": "2026-02-15", "petrol": 99.60,  "diesel": 86.30 },
+        { "date": "2026-02-01", "petrol": 99.05,  "diesel": 85.80 },
+        { "date": "2026-01-15", "petrol": 99.05,  "diesel": 85.80 }
+      ]
+    },
+    "Pune": {
+      "petrol": 103.44,
+      "diesel": 89.56,
+      "history": [
+        { "date": "2026-04-01", "petrol": 103.44, "diesel": 89.56 },
+        { "date": "2026-03-15", "petrol": 102.70, "diesel": 88.90 },
+        { "date": "2026-03-01", "petrol": 102.70, "diesel": 88.90 },
+        { "date": "2026-02-15", "petrol": 102.10, "diesel": 88.30 },
+        { "date": "2026-02-01", "petrol": 101.55, "diesel": 87.75 },
+        { "date": "2026-01-15", "petrol": 101.55, "diesel": 87.75 }
+      ]
+    }
+  }
+}

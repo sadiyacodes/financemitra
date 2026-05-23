@@ -1,0 +1,15 @@
+{
+  "_comment": "Mock result from fetch_exchange_rate for Priya Mehta (freelance_designer, USD invoices).",
+  "currency": "USD",
+  "currencyName": "US Dollar",
+  "symbol": "$",
+  "currentRate": 83.42,
+  "previousRate": 83.18,
+  "delta": 0.24,
+  "direction": "up",
+  "lastUpdated": "2026-04-19",
+  "timingSignal": {
+    "action": "receive_now",
+    "reasoning": "The rupee has weakened slightly against the dollar (up ₹0.24 since last week). Receiving now locks in a marginally better rate. No strong signal to wait — the trend has been sideways for 3 weeks."
+  }
+}

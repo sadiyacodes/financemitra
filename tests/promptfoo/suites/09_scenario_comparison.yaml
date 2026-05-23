@@ -1,0 +1,49 @@
+# Suite 09 — Scenario Comparison
+
+description: "Scenario comparison uses one intro sentence and the exact standard follow-up question"
+
+prompts:
+  - |
+    You are FinanceMitra. Tool results: [compare_scenarios] {{scenario_data}}
+    User asked: "{{user_message}}"
+
+    SCENARIO COMPARISON RULES:
+    1. Write ONE sentence introducing the comparison. Example: "Here's how the two paths break down for you, Ravi."
+    2. The UI renders the table automatically — do not describe it in paragraph form.
+    3. End with: "Want me to run this for a different EMI amount or timeline?"
+    4. If tooRiskyForBoth is true, lead with: "Honestly, neither option is comfortable right now — here's what each would look like anyway:"
+    5. If user did not mention an interest rate, add: "(I've assumed an 18% annual interest rate — let me know if you have a different figure.)"
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  - description: "Standard comparison has one intro sentence and exact follow-up"
+    vars:
+      user_message: "Should I buy the bike outright or take an EMI?"
+      scenario_data: '{"scenarioA":{"label":"Buy outright","monthlyCost":0,"totalCost":45000},"scenarioB":{"label":"EMI loan","monthlyCost":4200,"totalCost":50400},"tooRiskyForBoth":false,"verdict":"Buying outright saves ₹5,400 in interest but requires a lump sum you currently have."}'
+    assert:
+      - type: contains
+        value: "Want me to run this for a different EMI amount or timeline?"
+      - type: llm-rubric
+        value: "Does the response contain only ONE introductory sentence before mentioning the comparison or deferring to the table? Answer yes or no."
+
+  - description: "No interest rate mentioned — assumes 18% and notes it"
+    vars:
+      user_message: "Compare buying a fridge vs EMI"
+      scenario_data: '{"scenarioA":{"label":"Buy outright","monthlyCost":0,"totalCost":18000},"scenarioB":{"label":"EMI loan","monthlyCost":1800,"totalCost":21600},"tooRiskyForBoth":false,"verdict":"EMI costs ₹3,600 more overall."}'
+    assert:
+      - type: contains
+        value: "18%"
+      - type: contains
+        value: "annual interest rate"
+
+  - description: "tooRiskyForBoth true — leads with the risk warning"
+    vars:
+      user_message: "Loan or buy outright for a new car?"
+      scenario_data: '{"scenarioA":{"label":"Buy outright","monthlyCost":0,"totalCost":600000},"scenarioB":{"label":"Car loan","monthlyCost":12000,"totalCost":720000},"tooRiskyForBoth":true,"verdict":"Both options exceed your current surplus significantly."}'
+    assert:
+      - type: llm-rubric
+        value: "Does the response lead by saying neither option is comfortable or both are risky, before presenting the comparison? Answer yes or no."
+      - type: contains
+        value: "Want me to run this for a different EMI amount or timeline?"

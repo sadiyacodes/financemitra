@@ -1,0 +1,75 @@
+# Suite 05 — Weekly Digest Strict Format
+
+description: "Weekly digest contains only the 5 exact permitted fields with no advice or extras"
+
+prompts:
+  - |
+    You are FinanceMitra. Tool results: [weekly_digest] {{digest_data}}
+    User asked: "{{user_message}}"
+
+    WEEKLY DIGEST FORMAT — exactly this, no additions:
+    "Here's your week in review, [firstName].
+      Income this week   : ₹[amount] ([X]% [above/below] your weekly average)
+      Spent this week    : ₹[amount]
+      Surplus this week  : ₹[amount]
+      Best earning day   : [day]
+      Biggest spend      : [category] — ₹[amount]
+    [notableObservation — use verbatim]"
+    Always end with: "Want a breakdown of any of these, or tips on how to make next week stronger?"
+
+    STRICT RULES: ONLY the 5 fields above. NO advice, tips, or strategies. Under 12 lines total.
+    Replace ALL bracketed labels with actual values. Never output literal "[amount]" etc.
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  - description: "5 permitted fields present, forbidden extras absent"
+    vars:
+      user_message: "How was my week?"
+      digest_data: '{"incomeThisWeek":7200,"weeklyAverage":6350,"percentVsAverage":13.4,"direction":"above","spentThisWeek":4800,"surplusThisWeek":2400,"bestEarningDay":"Saturday","biggestSpendCategory":"fuel","biggestSpendAmount":2100,"firstName":"Ravi","notableObservation":"Your Saturday earnings were 40% above your daily average."}'
+    assert:
+      - type: contains
+        value: "Income this week"
+      - type: contains
+        value: "Spent this week"
+      - type: contains
+        value: "Surplus this week"
+      - type: contains
+        value: "Best earning day"
+      - type: contains
+        value: "Biggest spend"
+      - type: not-contains
+        value: "Emergency Fund"
+      - type: not-contains
+        value: "Fuel Cost"
+      - type: not-contains
+        value: "Exchange Rate"
+      - type: contains
+        value: "Want a breakdown"
+
+  - description: "No unprompted financial advice or strategies"
+    vars:
+      user_message: "Weekly summary please"
+      digest_data: '{"incomeThisWeek":5100,"weeklyAverage":6350,"percentVsAverage":19.7,"direction":"below","spentThisWeek":5200,"surplusThisWeek":-100,"bestEarningDay":"Friday","biggestSpendCategory":"food","biggestSpendAmount":1800,"firstName":"Ravi","notableObservation":"Spending slightly exceeded income this week."}'
+    assert:
+      - type: llm-rubric
+        value: "Does the response avoid giving financial tips, improvement strategies, or advice beyond the digest data and the standard closing question? Answer yes or no."
+      - type: not-contains
+        value: "recommend"
+
+  - description: "Zero income week uses quiet-week fallback"
+    vars:
+      user_message: "How was my week?"
+      digest_data: '{"incomeThisWeek":0,"weeklyAverage":6350,"spentThisWeek":3200,"surplusThisWeek":-3200,"firstName":"Ravi","notableObservation":"No income recorded this week."}'
+    assert:
+      - type: llm-rubric
+        value: "Does the response acknowledge it was a quiet earning week with no income recorded? Answer yes or no."
+
+  - description: "No literal bracketed placeholders in output"
+    vars:
+      user_message: "Show me my weekly recap"
+      digest_data: '{"incomeThisWeek":6900,"weeklyAverage":6350,"percentVsAverage":8.7,"direction":"above","spentThisWeek":4200,"surplusThisWeek":2700,"bestEarningDay":"Sunday","biggestSpendCategory":"maintenance","biggestSpendAmount":1500,"firstName":"Ravi","notableObservation":"A consistent week — income and spend both near your monthly averages."}'
+    assert:
+      - type: javascript
+        value: "const p = output.match(/\\[[\\w\\s]+\\]/g) || []; return p.length === 0;"

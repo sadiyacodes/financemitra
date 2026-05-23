@@ -1,0 +1,91 @@
+{
+  "upi_apps": [
+    {
+      "id": "gpay",
+      "name": "Google Pay",
+      "shortName": "GPay",
+      "url": "https://pay.google.com",
+      "deeplink": "tez://upi/pay",
+      "color": "#4285F4",
+      "textColor": "#ffffff",
+      "keywords": ["google", "gpay", "tez", "googlepay"]
+    },
+    {
+      "id": "phonepe",
+      "name": "PhonePe",
+      "shortName": "PhonePe",
+      "url": "https://www.phonepe.com",
+      "deeplink": "phonepe://",
+      "color": "#5f259f",
+      "textColor": "#ffffff",
+      "keywords": ["phonepe", "phone pe"]
+    },
+    {
+      "id": "paytm",
+      "name": "Paytm",
+      "shortName": "Paytm",
+      "url": "https://paytm.com",
+      "deeplink": "paytmmp://",
+      "color": "#002970",
+      "textColor": "#ffffff",
+      "keywords": ["paytm"]
+    },
+    {
+      "id": "bhim",
+      "name": "BHIM UPI",
+      "shortName": "BHIM",
+      "url": "https://www.bhimupi.org.in",
+      "deeplink": "bhim://",
+      "color": "#00529B",
+      "textColor": "#ffffff",
+      "keywords": ["bhim", "upi", "npci"]
+    }
+  ],
+  "net_banking": [
+    {
+      "id": "sbi",
+      "name": "State Bank of India",
+      "shortName": "SBI",
+      "url": "https://www.onlinesbi.sbi",
+      "color": "#2d6bb5",
+      "textColor": "#ffffff",
+      "keywords": ["sbi", "state bank"]
+    },
+    {
+      "id": "hdfc",
+      "name": "HDFC Bank",
+      "shortName": "HDFC",
+      "url": "https://netbanking.hdfcbank.com",
+      "color": "#004C8F",
+      "textColor": "#ffffff",
+      "keywords": ["hdfc"]
+    },
+    {
+      "id": "icici",
+      "name": "ICICI Bank",
+      "shortName": "ICICI",
+      "url": "https://www.icicibank.com/online-services/internet-banking",
+      "color": "#F58220",
+      "textColor": "#ffffff",
+      "keywords": ["icici"]
+    },
+    {
+      "id": "axis",
+      "name": "Axis Bank",
+      "shortName": "Axis",
+      "url": "https://www.axisbank.com/retail/net-banking",
+      "color": "#97144d",
+      "textColor": "#ffffff",
+      "keywords": ["axis"]
+    },
+    {
+      "id": "kotak",
+      "name": "Kotak Mahindra",
+      "shortName": "Kotak",
+      "url": "https://www.kotak.com/en/personal-banking/bank/net-banking.html",
+      "color": "#EE1C25",
+      "textColor": "#ffffff",
+      "keywords": ["kotak"]
+    }
+  ]
+}

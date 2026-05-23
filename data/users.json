@@ -1,0 +1,44 @@
+[
+  {
+    "id": "user_001",
+    "name": "Ravi Kumar",
+    "type": "ride_share_driver",
+    "city": "Bengaluru",
+    "currency": "INR",
+    "monthly_fixed_expenses": 17000,
+    "savings_goal": {
+      "label": "Emergency fund",
+      "target": 50000,
+      "current": 12000
+    },
+    "income_pattern": "weekend_heavy"
+  },
+  {
+    "id": "user_002",
+    "name": "Kavya Reddy",
+    "type": "ride_share_driver",
+    "city": "Hyderabad",
+    "currency": "INR",
+    "monthly_fixed_expenses": 14000,
+    "savings_goal": {
+      "label": "Bike loan down payment",
+      "target": 40000,
+      "current": 22000
+    },
+    "income_pattern": "steady_daily"
+  },
+  {
+    "id": "user_003",
+    "name": "Suresh Naidu",
+    "type": "ride_share_driver",
+    "city": "Bengaluru",
+    "currency": "INR",
+    "monthly_fixed_expenses": 21000,
+    "savings_goal": {
+      "label": "Medical emergency buffer",
+      "target": 30000,
+      "current": 3200
+    },
+    "income_pattern": "irregular"
+  }
+]

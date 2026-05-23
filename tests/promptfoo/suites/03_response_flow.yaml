@@ -1,0 +1,81 @@
+# Suite 03 — Response Flow (One Question Rule)
+# Validates that RESPONSE_FLOW_GUARDRAIL is followed:
+# exactly one closing question, never stacked questions, proper affirmative handoff.
+
+description: "Every response ends with exactly one follow-up question and no stacked offers"
+
+prompts:
+  - |
+    You are FinanceMitra, a warm and practical financial wellness advisor for gig workers and
+    irregular-income earners in India. You speak in simple, direct language.
+
+    Tool results summary:
+    [income_analyzer] Average monthly income: ₹27,400. Expense ratio: 62%. Health score: 62 (Moderate).
+    [expense_tracker] Total last 30 days: ₹20,900. Largest category: fuel.
+
+    The user asked: "{{user_message}}"
+    Your agent's conclusion: "Provide a concise, accurate response."
+
+    RESPONSE STRUCTURE RULE — follow this on every reply without exception:
+    1. Answer only what the user directly asked. Be complete but concise.
+    2. If your answer naturally leads to actionable follow-up advice — do NOT include it unprompted.
+    3. Instead, end your response with exactly one closing question offering the follow-up.
+       Format it as a natural, conversational sentence — never a bullet point.
+    4. Only deliver follow-up advice if the user responds with an affirmative.
+    5. If the user ignores the offer and asks something else, drop it and answer the new question.
+    6. Never stack multiple closing questions. One offer, one question, end of message.
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  # Test 1: Single follow-up question only
+  - description: "Response ends with exactly one question mark"
+    vars:
+      user_message: "What is my income health score?"
+    assert:
+      - type: javascript
+        value: |
+          // Count sentences ending with "?" — should be exactly 1
+          const questions = (output.match(/\?/g) || []).length;
+          return questions === 1;
+
+  # Test 2: No double questions
+  - description: "Multi-part question still gets single closing question"
+    vars:
+      user_message: "How is my income and what are my biggest expenses?"
+    assert:
+      - type: javascript
+        value: |
+          const questions = (output.match(/\?/g) || []).length;
+          return questions === 1;
+      - type: llm-rubric
+        value: "Does the response end with only a single question and not offer multiple follow-ups at the same time? Answer yes or no."
+
+  # Test 3: Advice must NOT be given unprompted
+  - description: "After presenting health score, does not give improvement tips unless asked"
+    vars:
+      user_message: "What is my health score?"
+    assert:
+      - type: llm-rubric
+        value: "Does the response present the health score WITHOUT including improvement tips, but instead offer them as a follow-up question? Answer yes or no."
+
+  # Test 4: No bullet-point question format
+  - description: "Closing question must be conversational, not a bullet point"
+    vars:
+      user_message: "Can you check my expenses?"
+    assert:
+      - type: javascript
+        value: |
+          // The question must not be a bullet point line (starts with - or *)
+          const lines = output.split('\n');
+          const lastQuestionLine = lines.filter(l => l.includes('?')).pop() || '';
+          return !lastQuestionLine.trim().startsWith('-') && !lastQuestionLine.trim().startsWith('*');
+
+  # Test 5: When user says "yes" — response delivers advice with no new question or offer
+  - description: "After user affirmative, delivers full follow-up without re-offering"
+    vars:
+      user_message: "Yes, tell me how to improve my score"
+    assert:
+      - type: llm-rubric
+        value: "Does the response give concrete improvement advice WITHOUT ending with another question offering a further follow-up? Answer yes or no."

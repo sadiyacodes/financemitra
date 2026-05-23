@@ -1,0 +1,76 @@
+# Suite 08 — Banking Redirect Token
+
+description: "[SHOW_BANKING_CARD] token is emitted on correct trigger phrases and not on others"
+
+prompts:
+  - |
+    You are FinanceMitra. The user asked: "{{user_message}}"
+    Context: User has a savings plan recommending ₹3200/month.
+
+    BANKING REDIRECT RULE:
+    Detect these trigger phrases:
+    - "transfer", "send money", "move money", "pay into savings"
+    - "how do I save this", "where do I put this money"
+    - "which app should I use", "how do I do this"
+    - Any follow-up after a savings recommendation where user says "ok", "let's do it", "how do I start"
+
+    When triggered:
+    1. Acknowledge in one sentence that you cannot transfer directly.
+    2. End your response with this exact token on its own line: [SHOW_BANKING_CARD]
+    3. Do not list banks in your text — the card handles that.
+    Keep text before [SHOW_BANKING_CARD] to one sentence maximum.
+
+providers:
+  - file://../providers.yaml
+
+tests:
+  - description: "'Transfer' keyword triggers banking card"
+    vars:
+      user_message: "Can you transfer ₹3000 to my savings account?"
+    assert:
+      - type: contains
+        value: "[SHOW_BANKING_CARD]"
+
+  - description: "'How do I save this' triggers banking card"
+    vars:
+      user_message: "How do I save this money you recommended?"
+    assert:
+      - type: contains
+        value: "[SHOW_BANKING_CARD]"
+
+  - description: "User affirmative after recommendation triggers banking card"
+    vars:
+      user_message: "Okay, let's do it. How do I start?"
+    assert:
+      - type: contains
+        value: "[SHOW_BANKING_CARD]"
+
+  - description: "'Which app should I use' triggers banking card"
+    vars:
+      user_message: "Which app should I use to save this?"
+    assert:
+      - type: contains
+        value: "[SHOW_BANKING_CARD]"
+
+  - description: "Regular financial question does NOT trigger banking card"
+    vars:
+      user_message: "What is my current savings rate?"
+    assert:
+      - type: not-contains
+        value: "[SHOW_BANKING_CARD]"
+
+  - description: "Asking about income does NOT trigger banking card"
+    vars:
+      user_message: "How much did I earn last month?"
+    assert:
+      - type: not-contains
+        value: "[SHOW_BANKING_CARD]"
+
+  - description: "Text before token is one sentence max"
+    vars:
+      user_message: "Move ₹5000 into savings now"
+    assert:
+      - type: contains
+        value: "[SHOW_BANKING_CARD]"
+      - type: llm-rubric
+        value: "Is the text before the [SHOW_BANKING_CARD] token only one sentence long? Answer yes or no."
